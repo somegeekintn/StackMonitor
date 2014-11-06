@@ -1,4 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="untitled.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="13F34" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Question" representedClassName="QSQuestion" syncable="YES">
+        <attribute name="accepted_answer_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="answer_count" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="bounty_amount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="bounty_closes_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="closed_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="closed_reason" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="community_owned_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="creation_date" attributeType="Date" syncable="YES"/>
+        <attribute name="is_answered" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="last_activity_date" attributeType="Date" syncable="YES"/>
+        <attribute name="last_edit_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="link" attributeType="String" syncable="YES"/>
+        <attribute name="locked_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="protected_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="question_id" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="tags" attributeType="String" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <attribute name="view_count" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="owner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="questions" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="QSUser" syncable="YES">
+        <attribute name="accept_rate" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="display_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profile_image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reputation" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="thumbnail" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="questions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Question" inverseName="owner" inverseEntity="Question" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Question" positionX="-63" positionY="-18" width="128" height="343"/>
+        <element name="User" positionX="-54" positionY="135" width="128" height="180"/>
+    </elements>
 </model>

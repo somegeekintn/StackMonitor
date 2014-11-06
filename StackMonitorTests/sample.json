@@ -1,0 +1,767 @@
+{
+  "items": [
+    {
+      "tags": [
+        "ios",
+        "iphone",
+        "uiimagepickercontroller",
+        "video-capture"
+      ],
+      "owner": {
+        "reputation": 62,
+        "user_id": 2085554,
+        "user_type": "registered",
+        "accept_rate": 60,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/f1d8d84a58b4676724e6f19b2c20f35a?s=128&d=identicon&r=PG",
+        "display_name": "Joshua Book",
+        "link": "http:\/\/stackoverflow.com\/users\/2085554\/joshua-book"
+      },
+      "is_answered": false,
+      "view_count": 2,
+      "answer_count": 0,
+      "score": 123,
+      "last_activity_date": 1415218636,
+      "creation_date": 1415218636,
+      "question_id": 26766301,
+      "link": "http:\/\/stackoverflow.com\/questions\/26766301\/uiimagepickercontroller-startvideocapture-takes-one-second-to-start-actually-cap",
+      "title": "UIImagePickerController startVideoCapture takes one second to start actually capturing video"
+    },
+    {
+      "tags": [
+        "ios",
+        "orientation",
+        "nsnotificationcenter",
+        "appdelegate"
+      ],
+      "owner": {
+        "reputation": 435,
+        "user_id": 429249,
+        "user_type": "registered",
+        "accept_rate": 71,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/10a831bb08884f3da6f3151b6348f54c?s=128&d=identicon&r=PG",
+        "display_name": "Boaz",
+        "link": "http:\/\/stackoverflow.com\/users\/429249\/boaz"
+      },
+      "is_answered": false,
+      "view_count": 2,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415218589,
+      "creation_date": 1415218589,
+      "question_id": 26766289,
+      "link": "http:\/\/stackoverflow.com\/questions\/26766289\/can-i-manually-invoke-supportedinterfaceorientationsforwindow",
+      "title": "can I manually invoke supportedInterfaceOrientationsForWindow?"
+    },
+    {
+      "tags": [
+        "php",
+        "ios",
+        "mysql",
+        "swift"
+      ],
+      "owner": {
+        "reputation": 3,
+        "user_id": 3261196,
+        "user_type": "registered",
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/00de1e3408a1507b269c27e6e5f98d2a?s=128&d=identicon&r=PG&f=1",
+        "display_name": "user3261196",
+        "link": "http:\/\/stackoverflow.com\/users\/3261196\/user3261196"
+      },
+      "is_answered": false,
+      "view_count": 4,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415218449,
+      "creation_date": 1415218449,
+      "question_id": 26766247,
+      "link": "http:\/\/stackoverflow.com\/questions\/26766247\/ios-8-swift-connect-to-existing-mysql-database",
+      "title": "ios 8 swift connect to existing mysql database"
+    },
+    {
+      "tags": [
+        "ios",
+        "iphone",
+        "uitableview",
+        "ios8"
+      ],
+      "owner": {
+        "reputation": 1480,
+        "user_id": 803882,
+        "user_type": "registered",
+        "accept_rate": 45,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/ab9cb1bfb11884f79baaf04bac292977?s=128&d=identicon&r=PG",
+        "display_name": "VaporwareWolf",
+        "link": "http:\/\/stackoverflow.com\/users\/803882\/vaporwarewolf"
+      },
+      "is_answered": false,
+      "view_count": 2,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415218437,
+      "creation_date": 1415218437,
+      "question_id": 26766243,
+      "link": "http:\/\/stackoverflow.com\/questions\/26766243\/uitableview-invoke-swipe-actions-programmatically",
+      "title": "UITableView invoke swipe actions programmatically"
+    },
+    {
+      "tags": [
+        "xcode",
+        "cocoa",
+        "swift"
+      ],
+      "owner": {
+        "reputation": 707,
+        "user_id": 1183252,
+        "user_type": "registered",
+        "accept_rate": 53,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/08046137a1e06d6dcc0bfa9c762a0f9c?s=128&d=identicon&r=PG",
+        "display_name": "Lukas",
+        "link": "http:\/\/stackoverflow.com\/users\/1183252\/lukas"
+      },
+      "is_answered": false,
+      "view_count": 5,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1415218530,
+      "creation_date": 1415218347,
+      "question_id": 26766208,
+      "link": "http:\/\/stackoverflow.com\/questions\/26766208\/drop-shadow-on-a-custom-tableviewcell",
+      "title": "Drop shadow on a custom TableViewCell"
+    },
+    {
+      "tags": [
+        "ios",
+        "iphone",
+        "swift"
+      ],
+      "owner": {
+        "reputation": 26,
+        "user_id": 3308785,
+        "user_type": "registered",
+        "accept_rate": 20,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/daaa090e89a3d780a562f081a8f7570b?s=128&d=identicon&r=PG&f=1",
+        "display_name": "ketokun",
+        "link": "http:\/\/stackoverflow.com\/users\/3308785\/ketokun"
+      },
+      "is_answered": false,
+      "view_count": 5,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415218239,
+      "creation_date": 1415218239,
+      "question_id": 26766173,
+      "link": "http:\/\/stackoverflow.com\/questions\/26766173\/swift-passing-data-from-a-collectionview-to-a-tableviewcontroller",
+      "title": "Swift - Passing data from a CollectionView to a TableViewController"
+    },
+    {
+      "tags": [
+        "ios",
+        "objective-c",
+        "xcode",
+        "swift",
+        "sms"
+      ],
+      "owner": {
+        "reputation": 33,
+        "user_id": 4038677,
+        "user_type": "registered",
+        "accept_rate": 50,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/2b87f8510e363efd114ecde25afe042e?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Anthony",
+        "link": "http:\/\/stackoverflow.com\/users\/4038677\/anthony"
+      },
+      "is_answered": false,
+      "view_count": 4,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415217735,
+      "creation_date": 1415217735,
+      "question_id": 26766022,
+      "link": "http:\/\/stackoverflow.com\/questions\/26766022\/modify-mfmessagecomposeviewcontroller-ui-and-send-sms-programmatically",
+      "title": "Modify MFMessageComposeViewController UI And Send SMS Programmatically?"
+    },
+    {
+      "tags": [
+        "ios",
+        "xcode",
+        "swift"
+      ],
+      "owner": {
+        "reputation": 6,
+        "user_id": 4210648,
+        "user_type": "registered",
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/917a3525b01f2f3737833e416ec1d1d7?s=128&d=identicon&r=PG&f=1",
+        "display_name": "KiZ",
+        "link": "http:\/\/stackoverflow.com\/users\/4210648\/kiz"
+      },
+      "is_answered": false,
+      "view_count": 6,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415217614,
+      "creation_date": 1415217614,
+      "question_id": 26765990,
+      "link": "http:\/\/stackoverflow.com\/questions\/26765990\/swift-my-seed-for-arc4random-uniform-is-bigger-than-uint32-limit",
+      "title": "Swift: My seed for arc4random_Uniform is bigger than UInt32 limit.?"
+    },
+    {
+      "tags": [
+        "ios",
+        "objective-c",
+        "mapkit"
+      ],
+      "owner": {
+        "reputation": 5,
+        "user_id": 4118181,
+        "user_type": "registered",
+        "accept_rate": 100,
+        "profile_image": "http:\/\/i.stack.imgur.com\/5P7gl.png?s=128&g=1",
+        "display_name": "Mostafa Taghipour",
+        "link": "http:\/\/stackoverflow.com\/users\/4118181\/mostafa-taghipour"
+      },
+      "is_answered": false,
+      "view_count": 4,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415217547,
+      "creation_date": 1415217547,
+      "question_id": 26765976,
+      "link": "http:\/\/stackoverflow.com\/questions\/26765976\/clplacemark-multiple-places",
+      "title": "CLPlacemark multiple places"
+    },
+    {
+      "tags": [
+        "ios",
+        "objective-c",
+        "uiviewcontroller"
+      ],
+      "owner": {
+        "reputation": 6,
+        "user_id": 4213937,
+        "user_type": "registered",
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/8e7213a35faa6192ca57156a99d32a09?s=128&d=identicon&r=PG&f=1",
+        "display_name": "fourthnovember",
+        "link": "http:\/\/stackoverflow.com\/users\/4213937\/fourthnovember"
+      },
+      "is_answered": false,
+      "view_count": 10,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1415217939,
+      "creation_date": 1415217535,
+      "question_id": 26765974,
+      "link": "http:\/\/stackoverflow.com\/questions\/26765974\/access-to-uiviewcontroller-from-a-random-class",
+      "title": "Access to UIViewController from a random class"
+    },
+    {
+      "tags": [
+        "ios",
+        "uiviewcontroller",
+        "uinavigationcontroller"
+      ],
+      "owner": {
+        "reputation": 1010,
+        "user_id": 458811,
+        "user_type": "registered",
+        "accept_rate": 91,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/4862d716e47216eace801d08f4754c17?s=128&d=identicon&r=PG",
+        "display_name": "syedfa",
+        "link": "http:\/\/stackoverflow.com\/users\/458811\/syedfa"
+      },
+      "is_answered": false,
+      "view_count": 5,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1415217761,
+      "creation_date": 1415217428,
+      "question_id": 26765947,
+      "link": "http:\/\/stackoverflow.com\/questions\/26765947\/having-difficulty-bypassing-view-controller-in-stack-when-pushing-view-controlle",
+      "title": "Having difficulty bypassing view controller in stack when pushing view controller in iOS"
+    },
+    {
+      "tags": [
+        "ios",
+        "objective-c",
+        "ios8.1"
+      ],
+      "owner": {
+        "reputation": 41,
+        "user_id": 531284,
+        "user_type": "registered",
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/33d4802622c8ce9e5938ebc1c39cff87?s=128&d=identicon&r=PG",
+        "display_name": "R Brennan",
+        "link": "http:\/\/stackoverflow.com\/users\/531284\/r-brennan"
+      },
+      "is_answered": false,
+      "view_count": 3,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415217310,
+      "creation_date": 1415217310,
+      "question_id": 26765900,
+      "link": "http:\/\/stackoverflow.com\/questions\/26765900\/ios-avplayerviewcontroller-does-not-display-playback-controls",
+      "title": "iOS AVPlayerViewController does not display playback controls"
+    },
+    {
+      "tags": [
+        "iphone",
+        "swift",
+        "fonts",
+        "sprite-kit"
+      ],
+      "owner": {
+        "reputation": 30,
+        "user_id": 4118839,
+        "user_type": "registered",
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/39c45fd39e412f1a0636033f4878c472?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Alex",
+        "link": "http:\/\/stackoverflow.com\/users\/4118839\/alex"
+      },
+      "is_answered": false,
+      "view_count": 3,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415216695,
+      "creation_date": 1415216695,
+      "question_id": 26765730,
+      "link": "http:\/\/stackoverflow.com\/questions\/26765730\/use-custom-font-on-sprite-kit-swift",
+      "title": "use custom font on sprite kit - Swift"
+    },
+    {
+      "tags": [
+        "ios",
+        "objective-c",
+        "iphone",
+        "apple"
+      ],
+      "owner": {
+        "reputation": 314,
+        "user_id": 1443633,
+        "user_type": "registered",
+        "accept_rate": 54,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/24bbd1c6ccd778ba854fcbf47b4854a4?s=128&d=identicon&r=PG",
+        "display_name": "zic10",
+        "link": "http:\/\/stackoverflow.com\/users\/1443633\/zic10"
+      },
+      "is_answered": false,
+      "view_count": 20,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415217987,
+      "creation_date": 1415216478,
+      "last_edit_date": 1415217987,
+      "question_id": 26765671,
+      "link": "http:\/\/stackoverflow.com\/questions\/26765671\/programmatic-auto-layout-issue-ios-8-0",
+      "title": "Programmatic Auto Layout Issue iOS 8.0"
+    },
+    {
+      "tags": [
+        "ios",
+        "cocoa",
+        "core-location"
+      ],
+      "owner": {
+        "reputation": 6,
+        "user_id": 4220065,
+        "user_type": "registered",
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/13eb440d1c28b59f1924912b7bbd41f6?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Matthew Ko",
+        "link": "http:\/\/stackoverflow.com\/users\/4220065\/matthew-ko"
+      },
+      "is_answered": false,
+      "view_count": 10,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1415216426,
+      "creation_date": 1415216186,
+      "question_id": 26765596,
+      "link": "http:\/\/stackoverflow.com\/questions\/26765596\/cllocationmanager-requesting-higher-permissions",
+      "title": "CLLocationManager: Requesting higher permissions"
+    },
+    {
+      "tags": [
+        "ios",
+        "objective-c",
+        "airplay",
+        "apple-tv",
+        "external-display"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 4212964,
+        "user_type": "registered",
+        "profile_image": "https:\/\/lh3.googleusercontent.com\/-WNkh_8UmbeE\/AAAAAAAAAAI\/AAAAAAAAAEE\/hakzU7_d5-c\/photo.jpg?sz=128",
+        "display_name": "Nick Emmerson",
+        "link": "http:\/\/stackoverflow.com\/users\/4212964\/nick-emmerson"
+      },
+      "is_answered": false,
+      "view_count": 4,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415216160,
+      "creation_date": 1415216160,
+      "question_id": 26765591,
+      "link": "http:\/\/stackoverflow.com\/questions\/26765591\/ipad-app-with-airplay-external-display",
+      "title": "IPad app with (airplay) external display"
+    },
+    {
+      "tags": [
+        "xcode",
+        "cocoa",
+        "cocoa-touch",
+        "swift",
+        "sprite-kit"
+      ],
+      "owner": {
+        "reputation": 43,
+        "user_id": 2196438,
+        "user_type": "registered",
+        "accept_rate": 70,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/dd1d73cf479d3d9c9e4f11cd998e36c3?s=128&d=identicon&r=PG",
+        "display_name": "Steven Hovater",
+        "link": "http:\/\/stackoverflow.com\/users\/2196438\/steven-hovater"
+      },
+      "is_answered": false,
+      "view_count": 6,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415216074,
+      "creation_date": 1415216074,
+      "question_id": 26765573,
+      "link": "http:\/\/stackoverflow.com\/questions\/26765573\/whats-the-relationship-between-gamescene-swift-and-gamescene-sks-files-in-sprit",
+      "title": "What&#39;s the relationship between GameScene.swift and GameScene.sks files in SpriteKit template"
+    },
+    {
+      "tags": [
+        "ios",
+        "xcode",
+        "interface-builder",
+        "uistoryboard"
+      ],
+      "owner": {
+        "reputation": 2083,
+        "user_id": 1042232,
+        "user_type": "registered",
+        "accept_rate": 90,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/5ea4b9ed5294dee2d3877124fb3e7ca5?s=128&d=identicon&r=PG",
+        "display_name": "eselk",
+        "link": "http:\/\/stackoverflow.com\/users\/1042232\/eselk"
+      },
+      "is_answered": false,
+      "view_count": 6,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415215981,
+      "creation_date": 1415215981,
+      "question_id": 26765553,
+      "link": "http:\/\/stackoverflow.com\/questions\/26765553\/convert-uitoolbar-to-uitabview-look-but-keep-functionality",
+      "title": "Convert UIToolbar to UITabView look but keep functionality"
+    },
+    {
+      "tags": [
+        "ios",
+        "audio"
+      ],
+      "owner": {
+        "reputation": 38,
+        "user_id": 4160169,
+        "user_type": "registered",
+        "accept_rate": 100,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/eeadd4ba6434e8c233a800098ee5b5fd?s=128&d=identicon&r=PG&f=1",
+        "display_name": "solo fisher",
+        "link": "http:\/\/stackoverflow.com\/users\/4160169\/solo-fisher"
+      },
+      "is_answered": false,
+      "view_count": 7,
+      "answer_count": 0,
+      "score": -1,
+      "last_activity_date": 1415215763,
+      "creation_date": 1415215763,
+      "question_id": 26765492,
+      "link": "http:\/\/stackoverflow.com\/questions\/26765492\/mixing-two-audio-files-in-ios",
+      "title": "Mixing two audio files in ios?"
+    },
+    {
+      "tags": [
+        "ios",
+        "error-handling",
+        "crash",
+        "terminate"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 4191585,
+        "user_type": "registered",
+        "profile_image": "https:\/\/lh6.googleusercontent.com\/-OyTrg3v76Wo\/AAAAAAAAAAI\/AAAAAAAAABA\/PqIoxlgBc4M\/photo.jpg?sz=128",
+        "display_name": "Sashi",
+        "link": "http:\/\/stackoverflow.com\/users\/4191585\/sashi"
+      },
+      "is_answered": false,
+      "view_count": 12,
+      "closed_date": 1415216298,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1415217657,
+      "creation_date": 1415215735,
+      "last_edit_date": 1415217657,
+      "question_id": 26765487,
+      "link": "http:\/\/stackoverflow.com\/questions\/26765487\/terminating-the-app-due-to-uncaught-exception-nsunknownkeyexception-ios",
+      "closed_reason": "duplicate",
+      "title": "Terminating the app due to uncaught exception &#39;NSUnknownKeyException&#39; - IOS"
+    },
+    {
+      "tags": [
+        "ios",
+        "uiviewcontroller"
+      ],
+      "owner": {
+        "reputation": 702,
+        "user_id": 598057,
+        "user_type": "registered",
+        "accept_rate": 77,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/af77229cbfe1a0bff2b5ea064ef3271a?s=128&d=identicon&r=PG",
+        "display_name": "Stanislaw",
+        "link": "http:\/\/stackoverflow.com\/users\/598057\/stanislaw"
+      },
+      "is_answered": false,
+      "view_count": 9,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1415218416,
+      "creation_date": 1415215528,
+      "question_id": 26765417,
+      "link": "http:\/\/stackoverflow.com\/questions\/26765417\/is-it-possible-for-current-visible-view-controller-to-break-out-of-existing-view",
+      "title": "Is it possible for current visible view controller to break out of existing view hierarchy and be substituted to another?"
+    },
+    {
+      "tags": [
+        "ios",
+        "xcode",
+        "autolayout"
+      ],
+      "owner": {
+        "reputation": 2809,
+        "user_id": 591487,
+        "user_type": "registered",
+        "accept_rate": 96,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/c5e1a6f7698e7fc0f986262543b5bb9f?s=128&d=identicon&r=PG",
+        "display_name": "inorganik",
+        "link": "http:\/\/stackoverflow.com\/users\/591487\/inorganik"
+      },
+      "is_answered": false,
+      "view_count": 5,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415215358,
+      "creation_date": 1415215358,
+      "question_id": 26765363,
+      "link": "http:\/\/stackoverflow.com\/questions\/26765363\/changing-auto-layout-constraints-at-runtime-in-table-cell",
+      "title": "Changing auto-layout constraints at runtime in table cell"
+    },
+    {
+      "tags": [
+        "ios",
+        "objective-c",
+        "xcode",
+        "storyboard",
+        "xib"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 4219978,
+        "user_type": "registered",
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/dfd9192cb37cfa780c923ef42944e48a?s=128&d=identicon&r=PG&f=1",
+        "display_name": "SailingonBroats",
+        "link": "http:\/\/stackoverflow.com\/users\/4219978\/sailingonbroats"
+      },
+      "is_answered": false,
+      "view_count": 11,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1415215482,
+      "creation_date": 1415214307,
+      "question_id": 26765057,
+      "link": "http:\/\/stackoverflow.com\/questions\/26765057\/navigation-controller-from-storyboard-to-xib-coding-for-table-cells-not-working",
+      "title": "Navigation Controller from Storyboard to XIB? Coding for table cells not working on Storyboard? Use XIB?"
+    },
+    {
+      "tags": [
+        "ios"
+      ],
+      "owner": {
+        "reputation": 66,
+        "user_id": 2188360,
+        "user_type": "registered",
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/a59e22f825584b139267aa4060092701?s=128&d=identicon&r=PG",
+        "display_name": "Kat R.",
+        "link": "http:\/\/stackoverflow.com\/users\/2188360\/kat-r"
+      },
+      "is_answered": false,
+      "view_count": 7,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1415214792,
+      "creation_date": 1415214163,
+      "question_id": 26765015,
+      "link": "http:\/\/stackoverflow.com\/questions\/26765015\/ios-8-force-system-keyboard-for-an-input-field-without-using-securetextentry",
+      "title": "iOS 8 - Force system keyboard for an input field without using secureTextEntry?"
+    },
+    {
+      "tags": [
+        "ios",
+        "xcode",
+        "uitableview",
+        "swift"
+      ],
+      "owner": {
+        "reputation": 64,
+        "user_id": 2872294,
+        "user_type": "registered",
+        "accept_rate": 60,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/e4d091624e0a618add32662d863952e8?s=128&d=identicon&r=PG&f=1",
+        "display_name": "dMurdZ",
+        "link": "http:\/\/stackoverflow.com\/users\/2872294\/dmurdz"
+      },
+      "is_answered": true,
+      "view_count": 18,
+      "answer_count": 2,
+      "score": -1,
+      "last_activity_date": 1415214697,
+      "creation_date": 1415214014,
+      "question_id": 26764967,
+      "link": "http:\/\/stackoverflow.com\/questions\/26764967\/conditionally-show-cells-in-a-static-cell-tableview",
+      "title": "Conditionally show cells in a static cell tableview"
+    },
+    {
+      "tags": [
+        "ios",
+        "html5",
+        "modernizr"
+      ],
+      "owner": {
+        "reputation": 54,
+        "user_id": 1811447,
+        "user_type": "registered",
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/81f9a982605a6988c327fb2868f5f8cb?s=128&d=identicon&r=PG",
+        "display_name": "bjorkblom",
+        "link": "http:\/\/stackoverflow.com\/users\/1811447\/bjorkblom"
+      },
+      "is_answered": true,
+      "view_count": 6,
+      "accepted_answer_id": 26765162,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1415214662,
+      "creation_date": 1415214005,
+      "question_id": 26764963,
+      "link": "http:\/\/stackoverflow.com\/questions\/26764963\/why-does-modernizr-set-drag-and-drop-class-for-ios-devices",
+      "title": "Why does Modernizr set drag and drop class for iOS devices"
+    },
+    {
+      "tags": [
+        "ios",
+        "objective-c",
+        "xcode"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 4154220,
+        "user_type": "registered",
+        "profile_image": "http:\/\/graph.facebook.com\/100000354467633\/picture?type=large",
+        "display_name": "Alaa Taher",
+        "link": "http:\/\/stackoverflow.com\/users\/4154220\/alaa-taher"
+      },
+      "is_answered": false,
+      "view_count": 19,
+      "closed_date": 1415217563,
+      "answer_count": 0,
+      "score": -1,
+      "last_activity_date": 1415215459,
+      "creation_date": 1415213828,
+      "last_edit_date": 1415215459,
+      "question_id": 26764918,
+      "link": "http:\/\/stackoverflow.com\/questions\/26764918\/how-to-make-animation-such-as-bottle-feed-of-similac-baby-journal-app",
+      "closed_reason": "unclear what you&#39;re asking",
+      "title": "how to make animation such as bottle feed of Similac Baby Journal app"
+    },
+    {
+      "tags": [
+        "ios",
+        "itunesconnect",
+        "testflight"
+      ],
+      "owner": {
+        "reputation": 6,
+        "user_id": 4083791,
+        "user_type": "registered",
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/92b1f2203f5cd01b5e2153543aed582a?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Kurt Anderson",
+        "link": "http:\/\/stackoverflow.com\/users\/4083791\/kurt-anderson"
+      },
+      "is_answered": true,
+      "view_count": 22,
+      "accepted_answer_id": 26765173,
+      "answer_count": 2,
+      "score": 0,
+      "last_activity_date": 1415214712,
+      "creation_date": 1415213594,
+      "question_id": 26764844,
+      "link": "http:\/\/stackoverflow.com\/questions\/26764844\/unable-to-invite-external-users-to-beta-my-ios-app",
+      "title": "Unable to invite external users to beta my iOS app"
+    },
+    {
+      "tags": [
+        "ios",
+        "ios8",
+        "applepay"
+      ],
+      "owner": {
+        "reputation": 974,
+        "user_id": 240958,
+        "user_type": "registered",
+        "accept_rate": 82,
+        "profile_image": "http:\/\/i.stack.imgur.com\/ueb7e.jpg?s=128&g=1",
+        "display_name": "Charith Nidarsha",
+        "link": "http:\/\/stackoverflow.com\/users\/240958\/charith-nidarsha"
+      },
+      "is_answered": false,
+      "view_count": 4,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415213456,
+      "creation_date": 1415213456,
+      "question_id": 26764802,
+      "link": "http:\/\/stackoverflow.com\/questions\/26764802\/testing-applepay-sdk",
+      "title": "Testing ApplePay SDK"
+    },
+    {
+      "tags": [
+        "android",
+        "ios",
+        "authentication",
+        "web",
+        "parse.com"
+      ],
+      "owner": {
+        "reputation": 16,
+        "user_id": 3745751,
+        "user_type": "registered",
+        "profile_image": "http:\/\/graph.facebook.com\/844379835\/picture?type=large",
+        "display_name": "user3745751",
+        "link": "http:\/\/stackoverflow.com\/users\/3745751\/user3745751"
+      },
+      "is_answered": false,
+      "view_count": 10,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415213253,
+      "creation_date": 1415213253,
+      "question_id": 26764758,
+      "link": "http:\/\/stackoverflow.com\/questions\/26764758\/parse-com-login-send-credentials-from-app-to-website",
+      "title": "Parse.com Login: Send credentials from app to website."
+    }
+  ],
+  "has_more": true,
+  "quota_max": 300,
+  "quota_remaining": 259
+}

@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C92A9D5F1A0B94DE00B714EF /* QSTintedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C92A9D5E1A0B94DE00B714EF /* QSTintedView.m */; };
 		C96FB6561A0AAC9400A70184 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C96FB6551A0AAC9400A70184 /* main.m */; };
 		C96FB6591A0AAC9400A70184 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C96FB6581A0AAC9400A70184 /* AppDelegate.m */; };
 		C96FB65C1A0AAC9400A70184 /* StackMonitor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C96FB65A1A0AAC9400A70184 /* StackMonitor.xcdatamodeld */; };
 		C96FB65E1A0AAC9400A70184 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96FB65D1A0AAC9400A70184 /* Images.xcassets */; };
 		C96FB6611A0AAC9500A70184 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C96FB65F1A0AAC9500A70184 /* MainMenu.xib */; };
 		C96FB66D1A0AAC9500A70184 /* StackMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C96FB66C1A0AAC9500A70184 /* StackMonitorTests.m */; };
+		C96FB6791A0AB1A300A70184 /* QSObjGraphMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = C96FB6781A0AB1A300A70184 /* QSObjGraphMgr.m */; };
+		C96FB67C1A0ABC9000A70184 /* QSMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = C96FB67B1A0ABC9000A70184 /* QSMonitor.m */; };
+		C96FB67E1A0ABD4700A70184 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = C96FB67D1A0ABD4700A70184 /* sample.json */; };
+		C96FB67F1A0ABD4700A70184 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = C96FB67D1A0ABD4700A70184 /* sample.json */; };
+		C96FB6821A0AC70200A70184 /* QSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C96FB6811A0AC70200A70184 /* QSUser.m */; };
+		C96FB6851A0AC70300A70184 /* QSQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = C96FB6841A0AC70300A70184 /* QSQuestion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C92A9D5D1A0B94DE00B714EF /* QSTintedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSTintedView.h; sourceTree = "<group>"; };
+		C92A9D5E1A0B94DE00B714EF /* QSTintedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSTintedView.m; sourceTree = "<group>"; };
 		C96FB6501A0AAC9400A70184 /* StackMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96FB6541A0AAC9400A70184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C96FB6551A0AAC9400A70184 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,6 +46,15 @@
 		C96FB6661A0AAC9500A70184 /* StackMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96FB66B1A0AAC9500A70184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C96FB66C1A0AAC9500A70184 /* StackMonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackMonitorTests.m; sourceTree = "<group>"; };
+		C96FB6771A0AB1A300A70184 /* QSObjGraphMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSObjGraphMgr.h; sourceTree = "<group>"; };
+		C96FB6781A0AB1A300A70184 /* QSObjGraphMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSObjGraphMgr.m; sourceTree = "<group>"; };
+		C96FB67A1A0ABC9000A70184 /* QSMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSMonitor.h; sourceTree = "<group>"; };
+		C96FB67B1A0ABC9000A70184 /* QSMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSMonitor.m; sourceTree = "<group>"; };
+		C96FB67D1A0ABD4700A70184 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		C96FB6801A0AC70200A70184 /* QSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSUser.h; sourceTree = "<group>"; };
+		C96FB6811A0AC70200A70184 /* QSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSUser.m; sourceTree = "<group>"; };
+		C96FB6831A0AC70300A70184 /* QSQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSQuestion.h; sourceTree = "<group>"; };
+		C96FB6841A0AC70300A70184 /* QSQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSQuestion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +75,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C92A9D5C1A0B949D00B714EF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C92A9D5D1A0B94DE00B714EF /* QSTintedView.h */,
+				C92A9D5E1A0B94DE00B714EF /* QSTintedView.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		C96FB6471A0AAC9400A70184 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				C96FB65D1A0AAC9400A70184 /* Images.xcassets */,
 				C96FB65F1A0AAC9500A70184 /* MainMenu.xib */,
 				C96FB65A1A0AAC9400A70184 /* StackMonitor.xcdatamodeld */,
+				C96FB6761A0AB17700A70184 /* Model */,
+				C92A9D5C1A0B949D00B714EF /* UI */,
 				C96FB6531A0AAC9400A70184 /* Supporting Files */,
 			);
 			path = StackMonitor;
@@ -110,8 +139,24 @@
 			isa = PBXGroup;
 			children = (
 				C96FB66B1A0AAC9500A70184 /* Info.plist */,
+				C96FB67D1A0ABD4700A70184 /* sample.json */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C96FB6761A0AB17700A70184 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C96FB67A1A0ABC9000A70184 /* QSMonitor.h */,
+				C96FB67B1A0ABC9000A70184 /* QSMonitor.m */,
+				C96FB6771A0AB1A300A70184 /* QSObjGraphMgr.h */,
+				C96FB6781A0AB1A300A70184 /* QSObjGraphMgr.m */,
+				C96FB6831A0AC70300A70184 /* QSQuestion.h */,
+				C96FB6841A0AC70300A70184 /* QSQuestion.m */,
+				C96FB6801A0AC70200A70184 /* QSUser.h */,
+				C96FB6811A0AC70200A70184 /* QSUser.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +241,7 @@
 			files = (
 				C96FB65E1A0AAC9400A70184 /* Images.xcassets in Resources */,
 				C96FB6611A0AAC9500A70184 /* MainMenu.xib in Resources */,
+				C96FB67E1A0ABD4700A70184 /* sample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C96FB67F1A0ABD4700A70184 /* sample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,8 +260,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C92A9D5F1A0B94DE00B714EF /* QSTintedView.m in Sources */,
 				C96FB65C1A0AAC9400A70184 /* StackMonitor.xcdatamodeld in Sources */,
+				C96FB6851A0AC70300A70184 /* QSQuestion.m in Sources */,
+				C96FB67C1A0ABC9000A70184 /* QSMonitor.m in Sources */,
+				C96FB6791A0AB1A300A70184 /* QSObjGraphMgr.m in Sources */,
 				C96FB6591A0AAC9400A70184 /* AppDelegate.m in Sources */,
+				C96FB6821A0AC70200A70184 /* QSUser.m in Sources */,
 				C96FB6561A0AAC9400A70184 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +454,7 @@
 				C96FB6721A0AAC9500A70184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C96FB6731A0AAC9500A70184 /* Build configuration list for PBXNativeTarget "StackMonitorTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +463,7 @@
 				C96FB6751A0AAC9500A70184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
