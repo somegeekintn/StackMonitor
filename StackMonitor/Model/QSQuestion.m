@@ -15,6 +15,7 @@
 
 @dynamic accepted_answer_id;
 @dynamic answer_count;
+@dynamic body;
 @dynamic bounty_amount;
 @dynamic bounty_closes_date;
 @dynamic closed_date;
@@ -39,7 +40,7 @@
 	static NSArray	*sSkippedNames = nil;
 	
 	if (sSkippedNames == nil) {
-		sSkippedNames = @[ @"question_id", @"owner", @"tags"];
+		sSkippedNames = @[ @"question_id", @"owner", @"tags", @"title", @"body" ];
 	}
 	
 	return sSkippedNames;
@@ -82,6 +83,21 @@
 	return question;
 }
 
+- (NSString *) stripHTMLString: (NSString *) inHTMLString
+{
+	// this is probably the least efficient way to do this, but convenient for the time being
+	NSString		*strippedString = inHTMLString;
+	
+	if (inHTMLString != nil) {
+		NSData				*stringData = [inHTMLString dataUsingEncoding: NSUTF8StringEncoding];
+		NSAttributedString	*attrString = [[NSAttributedString alloc] initWithHTML: stringData documentAttributes: nil];
+		
+		strippedString = [attrString string];
+	}
+	
+	return strippedString;
+}
+
 - (void) updateWithRawInfo: (NSDictionary *) inRawInfo
 {
 	NSDictionary	*ownerInfo = inRawInfo[@"owner"];
@@ -92,6 +108,8 @@
 	}
 	
 	self.tags = [tags componentsJoinedByString: @","];
+	self.title = [self stripHTMLString: inRawInfo[@"title"]];
+	self.body = [self stripHTMLString: inRawInfo[@"body"]];
 	[self.owner updateWithRawInfo: ownerInfo];
 	
 	for (NSPropertyDescription *property in self.entity) {

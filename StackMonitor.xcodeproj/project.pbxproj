@@ -20,6 +20,8 @@
 		C96FB67F1A0ABD4700A70184 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = C96FB67D1A0ABD4700A70184 /* sample.json */; };
 		C96FB6821A0AC70200A70184 /* QSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C96FB6811A0AC70200A70184 /* QSUser.m */; };
 		C96FB6851A0AC70300A70184 /* QSQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = C96FB6841A0AC70300A70184 /* QSQuestion.m */; };
+		C9F079D91A0CD3DF00ADBFEB /* QSQuestionController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F079D81A0CD3DF00ADBFEB /* QSQuestionController.m */; };
+		C9F079DD1A0CE00400ADBFEB /* QSQuestionRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F079DC1A0CE00400ADBFEB /* QSQuestionRowView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		C96FB6811A0AC70200A70184 /* QSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSUser.m; sourceTree = "<group>"; };
 		C96FB6831A0AC70300A70184 /* QSQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSQuestion.h; sourceTree = "<group>"; };
 		C96FB6841A0AC70300A70184 /* QSQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSQuestion.m; sourceTree = "<group>"; };
+		C9F079D71A0CD3DF00ADBFEB /* QSQuestionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSQuestionController.h; sourceTree = "<group>"; };
+		C9F079D81A0CD3DF00ADBFEB /* QSQuestionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSQuestionController.m; sourceTree = "<group>"; };
+		C9F079DB1A0CE00400ADBFEB /* QSQuestionRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSQuestionRowView.h; sourceTree = "<group>"; };
+		C9F079DC1A0CE00400ADBFEB /* QSQuestionRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSQuestionRowView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,8 @@
 			children = (
 				C92A9D5D1A0B94DE00B714EF /* QSTintedView.h */,
 				C92A9D5E1A0B94DE00B714EF /* QSTintedView.m */,
+				C9F079DB1A0CE00400ADBFEB /* QSQuestionRowView.h */,
+				C9F079DC1A0CE00400ADBFEB /* QSQuestionRowView.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -110,6 +118,7 @@
 				C96FB65D1A0AAC9400A70184 /* Images.xcassets */,
 				C96FB65F1A0AAC9500A70184 /* MainMenu.xib */,
 				C96FB65A1A0AAC9400A70184 /* StackMonitor.xcdatamodeld */,
+				C9F079D61A0CD3C600ADBFEB /* Classes */,
 				C96FB6761A0AB17700A70184 /* Model */,
 				C92A9D5C1A0B949D00B714EF /* UI */,
 				C96FB6531A0AAC9400A70184 /* Supporting Files */,
@@ -157,6 +166,15 @@
 				C96FB6811A0AC70200A70184 /* QSUser.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C9F079D61A0CD3C600ADBFEB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C9F079D71A0CD3DF00ADBFEB /* QSQuestionController.h */,
+				C9F079D81A0CD3DF00ADBFEB /* QSQuestionController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +281,12 @@
 				C92A9D5F1A0B94DE00B714EF /* QSTintedView.m in Sources */,
 				C96FB65C1A0AAC9400A70184 /* StackMonitor.xcdatamodeld in Sources */,
 				C96FB6851A0AC70300A70184 /* QSQuestion.m in Sources */,
+				C9F079DD1A0CE00400ADBFEB /* QSQuestionRowView.m in Sources */,
 				C96FB67C1A0ABC9000A70184 /* QSMonitor.m in Sources */,
 				C96FB6791A0AB1A300A70184 /* QSObjGraphMgr.m in Sources */,
 				C96FB6591A0AAC9400A70184 /* AppDelegate.m in Sources */,
 				C96FB6821A0AC70200A70184 /* QSUser.m in Sources */,
+				C9F079D91A0CD3DF00ADBFEB /* QSQuestionController.m in Sources */,
 				C96FB6561A0AAC9400A70184 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

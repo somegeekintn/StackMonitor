@@ -3,765 +3,804 @@
     {
       "tags": [
         "ios",
-        "iphone",
-        "uiimagepickercontroller",
-        "video-capture"
+        "swift",
+        "xcode6"
       ],
       "owner": {
-        "reputation": 62,
-        "user_id": 2085554,
+        "reputation": 11,
+        "user_id": 4217592,
         "user_type": "registered",
-        "accept_rate": 60,
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/f1d8d84a58b4676724e6f19b2c20f35a?s=128&d=identicon&r=PG",
-        "display_name": "Joshua Book",
-        "link": "http:\/\/stackoverflow.com\/users\/2085554\/joshua-book"
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/e8579c0b5e62bd026ac818d52945c344?s=128&d=identicon&r=PG&f=1",
+        "display_name": "dhaval shah",
+        "link": "http:\/\/stackoverflow.com\/users\/4217592\/dhaval-shah"
       },
       "is_answered": false,
-      "view_count": 2,
+      "view_count": 7,
       "answer_count": 0,
-      "score": 123,
-      "last_activity_date": 1415218636,
-      "creation_date": 1415218636,
-      "question_id": 26766301,
-      "link": "http:\/\/stackoverflow.com\/questions\/26766301\/uiimagepickercontroller-startvideocapture-takes-one-second-to-start-actually-cap",
-      "title": "UIImagePickerController startVideoCapture takes one second to start actually capturing video"
+      "score": 1,
+      "last_activity_date": 1415362085,
+      "creation_date": 1415362085,
+      "question_id": 26800963,
+      "link": "http:\/\/stackoverflow.com\/questions\/26800963\/uitextfield-border-for-bottom-side-only-in-swift",
+      "title": "UITextField border for bottom side only in swift",
+      "body": "<p>I want keep the border for bottom part only in uitextfield.\nBut i don't know how we can keep it for bottom side.\nCan you please advice me?<\/p>\n"
     },
     {
       "tags": [
-        "ios",
-        "orientation",
-        "nsnotificationcenter",
-        "appdelegate"
-      ],
-      "owner": {
-        "reputation": 435,
-        "user_id": 429249,
-        "user_type": "registered",
-        "accept_rate": 71,
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/10a831bb08884f3da6f3151b6348f54c?s=128&d=identicon&r=PG",
-        "display_name": "Boaz",
-        "link": "http:\/\/stackoverflow.com\/users\/429249\/boaz"
-      },
-      "is_answered": false,
-      "view_count": 2,
-      "answer_count": 0,
-      "score": 0,
-      "last_activity_date": 1415218589,
-      "creation_date": 1415218589,
-      "question_id": 26766289,
-      "link": "http:\/\/stackoverflow.com\/questions\/26766289\/can-i-manually-invoke-supportedinterfaceorientationsforwindow",
-      "title": "can I manually invoke supportedInterfaceOrientationsForWindow?"
-    },
-    {
-      "tags": [
-        "php",
-        "ios",
-        "mysql",
-        "swift"
-      ],
-      "owner": {
-        "reputation": 3,
-        "user_id": 3261196,
-        "user_type": "registered",
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/00de1e3408a1507b269c27e6e5f98d2a?s=128&d=identicon&r=PG&f=1",
-        "display_name": "user3261196",
-        "link": "http:\/\/stackoverflow.com\/users\/3261196\/user3261196"
-      },
-      "is_answered": false,
-      "view_count": 4,
-      "answer_count": 0,
-      "score": 0,
-      "last_activity_date": 1415218449,
-      "creation_date": 1415218449,
-      "question_id": 26766247,
-      "link": "http:\/\/stackoverflow.com\/questions\/26766247\/ios-8-swift-connect-to-existing-mysql-database",
-      "title": "ios 8 swift connect to existing mysql database"
-    },
-    {
-      "tags": [
-        "ios",
-        "iphone",
-        "uitableview",
+        "xcode",
+        "uiscrollview",
         "ios8"
       ],
       "owner": {
-        "reputation": 1480,
-        "user_id": 803882,
+        "reputation": 19,
+        "user_id": 2911156,
         "user_type": "registered",
-        "accept_rate": 45,
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/ab9cb1bfb11884f79baaf04bac292977?s=128&d=identicon&r=PG",
-        "display_name": "VaporwareWolf",
-        "link": "http:\/\/stackoverflow.com\/users\/803882\/vaporwarewolf"
+        "accept_rate": 100,
+        "profile_image": "http:\/\/graph.facebook.com\/100000104438749\/picture?type=large",
+        "display_name": "Pawe\u0142 Pa\u0142ka",
+        "link": "http:\/\/stackoverflow.com\/users\/2911156\/pawe%c5%82-pa%c5%82ka"
+      },
+      "is_answered": false,
+      "view_count": 3,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415361951,
+      "creation_date": 1415361951,
+      "question_id": 26800925,
+      "link": "http:\/\/stackoverflow.com\/questions\/26800925\/uiscrollview-infinite-scrolling-with-three-subviews-uiscrollview-too",
+      "title": "UIScrollView infinite scrolling with three subviews - UIScrollView too",
+      "body": "<p>I have master ScrollView and three subViews, also ScrolLView. How to manage infinite scrolling with smooth scrolling animiation and no visible effect of changing contenOffset value? Also subViews contain UIIimage that can be zooomed. <\/p>\n\n<p>I've tried UICollectionView with method scrollToIndextPath (poor animation effect), Apple source coode for photo gallery and infinite scrolling (need pagingEnabled = YES), also founded a lot of examples\/source code but nothing meet my needs. <\/p>\n\n<p>One more thing - number of UIImages loaded to subviews is unknown, so while scrolling I need to load images in backgound over and over. This action also must not be seen by user. <\/p>\n\n<p>App build sdk, iOS 8.<\/p>\n"
+    },
+    {
+      "tags": [
+        "objective-c",
+        "ios8",
+        "custom-keyboard",
+        "ios8-extension"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 3215179,
+        "user_type": "registered",
+        "accept_rate": 0,
+        "profile_image": "http:\/\/i.stack.imgur.com\/JD51I.png?s=128&g=1",
+        "display_name": "user3215179",
+        "link": "http:\/\/stackoverflow.com\/users\/3215179\/user3215179"
       },
       "is_answered": false,
       "view_count": 2,
       "answer_count": 0,
       "score": 0,
-      "last_activity_date": 1415218437,
-      "creation_date": 1415218437,
-      "question_id": 26766243,
-      "link": "http:\/\/stackoverflow.com\/questions\/26766243\/uitableview-invoke-swipe-actions-programmatically",
-      "title": "UITableView invoke swipe actions programmatically"
+      "last_activity_date": 1415361569,
+      "creation_date": 1415361569,
+      "question_id": 26800798,
+      "link": "http:\/\/stackoverflow.com\/questions\/26800798\/how-i-can-access-sqlite-database-and-cache-for-ios8-custom-key-board-app",
+      "title": "How I can access SQLite database and cache for iOS8 custom key board app",
+      "body": "<p>How I can access SQLite database and cache for iOS8 custom key board app\nI have stored some image in cache by using group. I am able to see those images in iOS simulator.\nBut in real device (iPhone5) the images are not showing. I am working on ObjectiveC language.\nI need help badly. <\/p>\n"
     },
     {
       "tags": [
-        "xcode",
-        "cocoa",
-        "swift"
-      ],
-      "owner": {
-        "reputation": 707,
-        "user_id": 1183252,
-        "user_type": "registered",
-        "accept_rate": 53,
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/08046137a1e06d6dcc0bfa9c762a0f9c?s=128&d=identicon&r=PG",
-        "display_name": "Lukas",
-        "link": "http:\/\/stackoverflow.com\/users\/1183252\/lukas"
-      },
-      "is_answered": false,
-      "view_count": 5,
-      "answer_count": 1,
-      "score": 0,
-      "last_activity_date": 1415218530,
-      "creation_date": 1415218347,
-      "question_id": 26766208,
-      "link": "http:\/\/stackoverflow.com\/questions\/26766208\/drop-shadow-on-a-custom-tableviewcell",
-      "title": "Drop shadow on a custom TableViewCell"
-    },
-    {
-      "tags": [
+        "html",
         "ios",
-        "iphone",
-        "swift"
-      ],
-      "owner": {
-        "reputation": 26,
-        "user_id": 3308785,
-        "user_type": "registered",
-        "accept_rate": 20,
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/daaa090e89a3d780a562f081a8f7570b?s=128&d=identicon&r=PG&f=1",
-        "display_name": "ketokun",
-        "link": "http:\/\/stackoverflow.com\/users\/3308785\/ketokun"
-      },
-      "is_answered": false,
-      "view_count": 5,
-      "answer_count": 0,
-      "score": 0,
-      "last_activity_date": 1415218239,
-      "creation_date": 1415218239,
-      "question_id": 26766173,
-      "link": "http:\/\/stackoverflow.com\/questions\/26766173\/swift-passing-data-from-a-collectionview-to-a-tableviewcontroller",
-      "title": "Swift - Passing data from a CollectionView to a TableViewController"
-    },
-    {
-      "tags": [
-        "ios",
-        "objective-c",
-        "xcode",
-        "swift",
-        "sms"
-      ],
-      "owner": {
-        "reputation": 33,
-        "user_id": 4038677,
-        "user_type": "registered",
-        "accept_rate": 50,
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/2b87f8510e363efd114ecde25afe042e?s=128&d=identicon&r=PG&f=1",
-        "display_name": "Anthony",
-        "link": "http:\/\/stackoverflow.com\/users\/4038677\/anthony"
-      },
-      "is_answered": false,
-      "view_count": 4,
-      "answer_count": 0,
-      "score": 0,
-      "last_activity_date": 1415217735,
-      "creation_date": 1415217735,
-      "question_id": 26766022,
-      "link": "http:\/\/stackoverflow.com\/questions\/26766022\/modify-mfmessagecomposeviewcontroller-ui-and-send-sms-programmatically",
-      "title": "Modify MFMessageComposeViewController UI And Send SMS Programmatically?"
-    },
-    {
-      "tags": [
-        "ios",
-        "xcode",
-        "swift"
-      ],
-      "owner": {
-        "reputation": 6,
-        "user_id": 4210648,
-        "user_type": "registered",
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/917a3525b01f2f3737833e416ec1d1d7?s=128&d=identicon&r=PG&f=1",
-        "display_name": "KiZ",
-        "link": "http:\/\/stackoverflow.com\/users\/4210648\/kiz"
-      },
-      "is_answered": false,
-      "view_count": 6,
-      "answer_count": 0,
-      "score": 0,
-      "last_activity_date": 1415217614,
-      "creation_date": 1415217614,
-      "question_id": 26765990,
-      "link": "http:\/\/stackoverflow.com\/questions\/26765990\/swift-my-seed-for-arc4random-uniform-is-bigger-than-uint32-limit",
-      "title": "Swift: My seed for arc4random_Uniform is bigger than UInt32 limit.?"
-    },
-    {
-      "tags": [
-        "ios",
-        "objective-c",
-        "mapkit"
-      ],
-      "owner": {
-        "reputation": 5,
-        "user_id": 4118181,
-        "user_type": "registered",
-        "accept_rate": 100,
-        "profile_image": "http:\/\/i.stack.imgur.com\/5P7gl.png?s=128&g=1",
-        "display_name": "Mostafa Taghipour",
-        "link": "http:\/\/stackoverflow.com\/users\/4118181\/mostafa-taghipour"
-      },
-      "is_answered": false,
-      "view_count": 4,
-      "answer_count": 0,
-      "score": 0,
-      "last_activity_date": 1415217547,
-      "creation_date": 1415217547,
-      "question_id": 26765976,
-      "link": "http:\/\/stackoverflow.com\/questions\/26765976\/clplacemark-multiple-places",
-      "title": "CLPlacemark multiple places"
-    },
-    {
-      "tags": [
-        "ios",
-        "objective-c",
-        "uiviewcontroller"
-      ],
-      "owner": {
-        "reputation": 6,
-        "user_id": 4213937,
-        "user_type": "registered",
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/8e7213a35faa6192ca57156a99d32a09?s=128&d=identicon&r=PG&f=1",
-        "display_name": "fourthnovember",
-        "link": "http:\/\/stackoverflow.com\/users\/4213937\/fourthnovember"
-      },
-      "is_answered": false,
-      "view_count": 10,
-      "answer_count": 1,
-      "score": 0,
-      "last_activity_date": 1415217939,
-      "creation_date": 1415217535,
-      "question_id": 26765974,
-      "link": "http:\/\/stackoverflow.com\/questions\/26765974\/access-to-uiviewcontroller-from-a-random-class",
-      "title": "Access to UIViewController from a random class"
-    },
-    {
-      "tags": [
-        "ios",
-        "uiviewcontroller",
-        "uinavigationcontroller"
-      ],
-      "owner": {
-        "reputation": 1010,
-        "user_id": 458811,
-        "user_type": "registered",
-        "accept_rate": 91,
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/4862d716e47216eace801d08f4754c17?s=128&d=identicon&r=PG",
-        "display_name": "syedfa",
-        "link": "http:\/\/stackoverflow.com\/users\/458811\/syedfa"
-      },
-      "is_answered": false,
-      "view_count": 5,
-      "answer_count": 1,
-      "score": 0,
-      "last_activity_date": 1415217761,
-      "creation_date": 1415217428,
-      "question_id": 26765947,
-      "link": "http:\/\/stackoverflow.com\/questions\/26765947\/having-difficulty-bypassing-view-controller-in-stack-when-pushing-view-controlle",
-      "title": "Having difficulty bypassing view controller in stack when pushing view controller in iOS"
-    },
-    {
-      "tags": [
-        "ios",
-        "objective-c",
-        "ios8.1"
-      ],
-      "owner": {
-        "reputation": 41,
-        "user_id": 531284,
-        "user_type": "registered",
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/33d4802622c8ce9e5938ebc1c39cff87?s=128&d=identicon&r=PG",
-        "display_name": "R Brennan",
-        "link": "http:\/\/stackoverflow.com\/users\/531284\/r-brennan"
-      },
-      "is_answered": false,
-      "view_count": 3,
-      "answer_count": 0,
-      "score": 0,
-      "last_activity_date": 1415217310,
-      "creation_date": 1415217310,
-      "question_id": 26765900,
-      "link": "http:\/\/stackoverflow.com\/questions\/26765900\/ios-avplayerviewcontroller-does-not-display-playback-controls",
-      "title": "iOS AVPlayerViewController does not display playback controls"
-    },
-    {
-      "tags": [
-        "iphone",
-        "swift",
-        "fonts",
-        "sprite-kit"
-      ],
-      "owner": {
-        "reputation": 30,
-        "user_id": 4118839,
-        "user_type": "registered",
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/39c45fd39e412f1a0636033f4878c472?s=128&d=identicon&r=PG&f=1",
-        "display_name": "Alex",
-        "link": "http:\/\/stackoverflow.com\/users\/4118839\/alex"
-      },
-      "is_answered": false,
-      "view_count": 3,
-      "answer_count": 0,
-      "score": 0,
-      "last_activity_date": 1415216695,
-      "creation_date": 1415216695,
-      "question_id": 26765730,
-      "link": "http:\/\/stackoverflow.com\/questions\/26765730\/use-custom-font-on-sprite-kit-swift",
-      "title": "use custom font on sprite kit - Swift"
-    },
-    {
-      "tags": [
-        "ios",
-        "objective-c",
-        "iphone",
-        "apple"
-      ],
-      "owner": {
-        "reputation": 314,
-        "user_id": 1443633,
-        "user_type": "registered",
-        "accept_rate": 54,
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/24bbd1c6ccd778ba854fcbf47b4854a4?s=128&d=identicon&r=PG",
-        "display_name": "zic10",
-        "link": "http:\/\/stackoverflow.com\/users\/1443633\/zic10"
-      },
-      "is_answered": false,
-      "view_count": 20,
-      "answer_count": 0,
-      "score": 0,
-      "last_activity_date": 1415217987,
-      "creation_date": 1415216478,
-      "last_edit_date": 1415217987,
-      "question_id": 26765671,
-      "link": "http:\/\/stackoverflow.com\/questions\/26765671\/programmatic-auto-layout-issue-ios-8-0",
-      "title": "Programmatic Auto Layout Issue iOS 8.0"
-    },
-    {
-      "tags": [
-        "ios",
-        "cocoa",
-        "core-location"
-      ],
-      "owner": {
-        "reputation": 6,
-        "user_id": 4220065,
-        "user_type": "registered",
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/13eb440d1c28b59f1924912b7bbd41f6?s=128&d=identicon&r=PG&f=1",
-        "display_name": "Matthew Ko",
-        "link": "http:\/\/stackoverflow.com\/users\/4220065\/matthew-ko"
-      },
-      "is_answered": false,
-      "view_count": 10,
-      "answer_count": 1,
-      "score": 1,
-      "last_activity_date": 1415216426,
-      "creation_date": 1415216186,
-      "question_id": 26765596,
-      "link": "http:\/\/stackoverflow.com\/questions\/26765596\/cllocationmanager-requesting-higher-permissions",
-      "title": "CLLocationManager: Requesting higher permissions"
-    },
-    {
-      "tags": [
-        "ios",
-        "objective-c",
-        "airplay",
-        "apple-tv",
-        "external-display"
+        "css",
+        "html5",
+        "mobile-safari"
       ],
       "owner": {
         "reputation": 1,
-        "user_id": 4212964,
+        "user_id": 4137760,
         "user_type": "registered",
-        "profile_image": "https:\/\/lh3.googleusercontent.com\/-WNkh_8UmbeE\/AAAAAAAAAAI\/AAAAAAAAAEE\/hakzU7_d5-c\/photo.jpg?sz=128",
-        "display_name": "Nick Emmerson",
-        "link": "http:\/\/stackoverflow.com\/users\/4212964\/nick-emmerson"
-      },
-      "is_answered": false,
-      "view_count": 4,
-      "answer_count": 0,
-      "score": 0,
-      "last_activity_date": 1415216160,
-      "creation_date": 1415216160,
-      "question_id": 26765591,
-      "link": "http:\/\/stackoverflow.com\/questions\/26765591\/ipad-app-with-airplay-external-display",
-      "title": "IPad app with (airplay) external display"
-    },
-    {
-      "tags": [
-        "xcode",
-        "cocoa",
-        "cocoa-touch",
-        "swift",
-        "sprite-kit"
-      ],
-      "owner": {
-        "reputation": 43,
-        "user_id": 2196438,
-        "user_type": "registered",
-        "accept_rate": 70,
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/dd1d73cf479d3d9c9e4f11cd998e36c3?s=128&d=identicon&r=PG",
-        "display_name": "Steven Hovater",
-        "link": "http:\/\/stackoverflow.com\/users\/2196438\/steven-hovater"
-      },
-      "is_answered": false,
-      "view_count": 6,
-      "answer_count": 0,
-      "score": 0,
-      "last_activity_date": 1415216074,
-      "creation_date": 1415216074,
-      "question_id": 26765573,
-      "link": "http:\/\/stackoverflow.com\/questions\/26765573\/whats-the-relationship-between-gamescene-swift-and-gamescene-sks-files-in-sprit",
-      "title": "What&#39;s the relationship between GameScene.swift and GameScene.sks files in SpriteKit template"
-    },
-    {
-      "tags": [
-        "ios",
-        "xcode",
-        "interface-builder",
-        "uistoryboard"
-      ],
-      "owner": {
-        "reputation": 2083,
-        "user_id": 1042232,
-        "user_type": "registered",
-        "accept_rate": 90,
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/5ea4b9ed5294dee2d3877124fb3e7ca5?s=128&d=identicon&r=PG",
-        "display_name": "eselk",
-        "link": "http:\/\/stackoverflow.com\/users\/1042232\/eselk"
-      },
-      "is_answered": false,
-      "view_count": 6,
-      "answer_count": 0,
-      "score": 0,
-      "last_activity_date": 1415215981,
-      "creation_date": 1415215981,
-      "question_id": 26765553,
-      "link": "http:\/\/stackoverflow.com\/questions\/26765553\/convert-uitoolbar-to-uitabview-look-but-keep-functionality",
-      "title": "Convert UIToolbar to UITabView look but keep functionality"
-    },
-    {
-      "tags": [
-        "ios",
-        "audio"
-      ],
-      "owner": {
-        "reputation": 38,
-        "user_id": 4160169,
-        "user_type": "registered",
-        "accept_rate": 100,
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/eeadd4ba6434e8c233a800098ee5b5fd?s=128&d=identicon&r=PG&f=1",
-        "display_name": "solo fisher",
-        "link": "http:\/\/stackoverflow.com\/users\/4160169\/solo-fisher"
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/8e1496a1aeb1fe6fd7e1a52b237d253b?s=128&d=identicon&r=PG&f=1",
+        "display_name": "LK Wong",
+        "link": "http:\/\/stackoverflow.com\/users\/4137760\/lk-wong"
       },
       "is_answered": false,
       "view_count": 7,
       "answer_count": 0,
-      "score": -1,
-      "last_activity_date": 1415215763,
-      "creation_date": 1415215763,
-      "question_id": 26765492,
-      "link": "http:\/\/stackoverflow.com\/questions\/26765492\/mixing-two-audio-files-in-ios",
-      "title": "Mixing two audio files in ios?"
+      "score": 0,
+      "last_activity_date": 1415361476,
+      "creation_date": 1415361476,
+      "question_id": 26800768,
+      "link": "http:\/\/stackoverflow.com\/questions\/26800768\/bug-white-bar-in-ios8-safari",
+      "title": "Bug? White bar in iOS8 Safari",
+      "body": "<p>In iOS8, a unknown white bar appears at the bottom of page when virtual keyboard is on.<\/p>\n\n<p>The height of this bar is approx. the height of Safari navigation bar and there is no bar if virtual keyboard was hidden or address bar was minimized after scrolling.<\/p>\n\n<p>Please find a code below, background color was assigned to div and page would scroll to bottom by clicking input, and you will see the concerned bar. (iOS8.1, iPhone 6)<\/p>\n\n<pre><code>&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;\n\n&lt;meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\"&gt;\n\n&lt;script src=\"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/2.1.1\/jquery.min.js\"&gt;&lt;\/script&gt;&lt;\/hea d&gt;\n\n&lt;body style=\"margin: 0px;\"&gt;\n\n&lt;div style=\"background:yellow;\"&gt;\n\nx&lt;br&gt;x&lt;br&gt;x&lt;br&gt;x&lt;br&gt;x&lt;br&gt;x&lt;br&gt;x&lt;br&gt;x&lt;br&gt;x&lt;br&gt;x&lt;br&gt;x&lt;br&gt;x&lt;br&gt;x&lt;br&gt;x&lt;br&gt;x&lt;br&gt;x&lt;br&gt; x&lt;br&gt;x&lt;br&gt;x&lt;br&gt;x&lt;br&gt;x&lt;br&gt;x&lt;br&gt;x&lt;br&gt;x&lt;br&gt;x&lt;br&gt;\n\n&lt;input type=\"text\" value=\"\" id=\"test\" onclick=\"$('html,body').scrollTop($(document).height());\"&gt;\n\n&lt;\/div&gt;\n\n&lt;\/body&gt;\n\n&lt;\/html&gt;\n<\/code><\/pre>\n\n<p>Is this is a bug in Safari.... Or I made a mistake? My layout was affected when was located at the bottom of page or in a fixed footer...Thanks a lot!!<\/p>\n"
     },
     {
       "tags": [
         "ios",
-        "error-handling",
-        "crash",
-        "terminate"
+        "objective-c",
+        "nsmutablearray",
+        "nsset"
       ],
       "owner": {
-        "reputation": 1,
-        "user_id": 4191585,
+        "reputation": 22,
+        "user_id": 4082046,
         "user_type": "registered",
-        "profile_image": "https:\/\/lh6.googleusercontent.com\/-OyTrg3v76Wo\/AAAAAAAAAAI\/AAAAAAAAABA\/PqIoxlgBc4M\/photo.jpg?sz=128",
-        "display_name": "Sashi",
-        "link": "http:\/\/stackoverflow.com\/users\/4191585\/sashi"
+        "accept_rate": 60,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/6e62b4bf2c4e0573deed4ad90e449f96?s=128&d=identicon&r=PG&f=1",
+        "display_name": "john mike mike",
+        "link": "http:\/\/stackoverflow.com\/users\/4082046\/john-mike-mike"
       },
       "is_answered": false,
-      "view_count": 12,
-      "closed_date": 1415216298,
+      "view_count": 14,
       "answer_count": 1,
       "score": 0,
-      "last_activity_date": 1415217657,
-      "creation_date": 1415215735,
-      "last_edit_date": 1415217657,
-      "question_id": 26765487,
-      "link": "http:\/\/stackoverflow.com\/questions\/26765487\/terminating-the-app-due-to-uncaught-exception-nsunknownkeyexception-ios",
-      "closed_reason": "duplicate",
-      "title": "Terminating the app due to uncaught exception &#39;NSUnknownKeyException&#39; - IOS"
+      "last_activity_date": 1415361949,
+      "creation_date": 1415361469,
+      "question_id": 26800765,
+      "link": "http:\/\/stackoverflow.com\/questions\/26800765\/how-do-i-get-unique-contents-from-my-nsmutablearray",
+      "title": "How do i get unique contents from my NSMutableArray?",
+      "body": "<p>I have a UITableView and am displaying contents from My NSMutableArray .Following is array format<\/p>\n\n<pre><code> (\n  {\n\n        Name = \"ANS\";\n        VersionNo = 6;\n\n    },\n        {\n\n        Name = \"O-Hydro\";\n        Version = 6;\n\n    },\n        {\n\n        Name = ANS;\n        Version = 6;\n\n    },\n        {\n\n        Name = \"ANTIChorosAnticholinergic\";\n        Version = 6;\n\n    }\n)\n<\/code><\/pre>\n\n<p>From this i need to display only unique \"Name\" (like in this i can see 2 \"ANS\" i need only one).<\/p>\n\n<p>How can i do this in iOS?<\/p>\n\n<p>i tried following but its not working<\/p>\n\n<pre><code>uniqueArray= [[NSMutableSet setWithArray: groupDetails] allObjects];\n<\/code><\/pre>\n\n<p>but in this way i can do only for NSArray not NSMutableArray.<\/p>\n\n<p>Pls help me<\/p>\n"
     },
     {
       "tags": [
         "ios",
-        "uiviewcontroller"
+        "objective-c",
+        "arrays",
+        "audio",
+        "matrix"
       ],
       "owner": {
-        "reputation": 702,
-        "user_id": 598057,
+        "reputation": 11,
+        "user_id": 4219063,
+        "user_type": "registered",
+        "profile_image": "http:\/\/graph.facebook.com\/100000913797726\/picture?type=large",
+        "display_name": "B\u0142a\u017cej Chwie\u0107ko",
+        "link": "http:\/\/stackoverflow.com\/users\/4219063\/b%c5%82a%c5%bcej-chwie%c4%87ko"
+      },
+      "is_answered": false,
+      "view_count": 3,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415361416,
+      "creation_date": 1415361416,
+      "question_id": 26800754,
+      "link": "http:\/\/stackoverflow.com\/questions\/26800754\/audio-signal-into-array-or-matrix",
+      "title": "Audio signal into array or matrix",
+      "body": "<p>Does it exist some function in objective-c which can turn an audio file into an array or a matrix? In matlab I was using wavread or audioread, but I'm looking for a similar funcionality in iOS. <\/p>\n"
+    },
+    {
+      "tags": [
+        "objective-c",
+        "xcode",
+        "uiscrollview"
+      ],
+      "owner": {
+        "reputation": 91,
+        "user_id": 1650180,
         "user_type": "registered",
         "accept_rate": 77,
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/af77229cbfe1a0bff2b5ea064ef3271a?s=128&d=identicon&r=PG",
-        "display_name": "Stanislaw",
-        "link": "http:\/\/stackoverflow.com\/users\/598057\/stanislaw"
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/cf546ecd2f18aa75213d945ee18a6d5d?s=128&d=identicon&r=PG",
+        "display_name": "nickdnk",
+        "link": "http:\/\/stackoverflow.com\/users\/1650180\/nickdnk"
+      },
+      "is_answered": false,
+      "view_count": 5,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415361383,
+      "creation_date": 1415361383,
+      "question_id": 26800743,
+      "link": "http:\/\/stackoverflow.com\/questions\/26800743\/scrollview-insets-move-incorrectly",
+      "title": "ScrollView insets move incorrectly",
+      "body": "<p>I am having a lot of trouble getting my UIScrollView to behave as it should.<\/p>\n\n<p>I use Storyboards and have the following configuration:<\/p>\n\n<pre><code>View Controller -&gt; View -&gt; ScrollView -&gt; ViewWithContent (only child element)\n<\/code><\/pre>\n\n<p>ScrollView is linked to ViewController as a property (<code>bookScrollView<\/code>) and synthesized. Delegate linked to ViewController as well. Native UIScrollView class used.<\/p>\n\n<p>I have tried using both Apple's own recommended method found in their \"Managing the keyboard section\" and searched SO extensively for a solution. Nothing works perfectly. A lot comes close but then doesn't work properly on iPhone 4 if it works on 5 and vice-verca.<\/p>\n\n<p>What I use now, which is the cleanest solution as far as I can gather is:<\/p>\n\n<p>Register for keyboard notifications as per Apple documentation.<\/p>\n\n<p>Store active text field in <code>activeField<\/code> instance variable, assigned\/nilled by <code>textDidBeginEditing<\/code> and <code>textDidEndEditing<\/code>.<\/p>\n\n<p>Move the keyboard with the following two methods:<\/p>\n\n<pre><code>\/\/ Called when the UIKeyboardDidShowNotification is sent.\n- (void)keyboardWasShown:(NSNotification*)aNotification\n{\n\nNSDictionary* info = [aNotification userInfo];\nCGSize kbSize = [[info objectForKey:UIKeyboardFrameBeginUserInfoKey] CGRectValue].size;\nUIEdgeInsets contentInsets = UIEdgeInsetsMake(0.0, 0.0, kbSize.height, 0.0);\nbookScrollView.contentInset = contentInsets;\nbookScrollView.scrollIndicatorInsets = contentInsets;\n\n\/\/ If active text field is hidden by keyboard, scroll it so it's visible\n\/\/ Your app might not need or want this behavior.\nCGRect aRect = self.view.frame;\naRect.size.height -= kbSize.height;\nif (!CGRectContainsPoint(aRect, activeField.frame.origin) ) {\n[bookScrollView scrollRectToVisible:activeField.frame animated:YES];\n}\n\n}\n\n\/\/ Called when the UIKeyboardWillHideNotification is sent\n- (void)keyboardWillBeHidden:(NSNotification*)aNotification\n{\nUIEdgeInsets contentInsets = UIEdgeInsetsZero;\nbookScrollView.contentInset = contentInsets;\nbookScrollView.scrollIndicatorInsets = contentInsets;\n}\n<\/code><\/pre>\n\n<p>My problem is I don't know how to properly use autolayout contraints, and I don't know a sure-fire way to determine the <code>contentSize<\/code> of my scrollView. Do I need to specifically disable or enable \"Autoresize subviews\" for any of the Storyboard elements?<\/p>\n\n<p>My result is now that everything scrolls as it should, BUT leaves this very annoying gap between the keyboard and the bottom scroll inset. See picture. (Note that the internet sharing thing has no influence on this, it just happened to be on while I took the screenshot). For this to show I have to drag the screen all the way to the bottom. There are a lot of UI elements above what is visible in the screenshot. It's dragged to prove a point. If I tap anywhere the scroll resets and all insets are removed and everything is good, so it WORKS, it just leaves me with this very annoying bug.<\/p>\n\n<p><img src=\"http:\/\/i.stack.imgur.com\/9aUvj.png\" alt=\"enter image description here\"><\/p>\n\n<p>Currently I use the following method to determine <code>contentSize<\/code>:<\/p>\n\n<pre><code>-(void)viewDidAppear:(BOOL)animated {\nNSInteger maxY = 0;\nfor (UIView* subview in bookScrollView.subviews)\n{\nif (CGRectGetMaxY(subview.frame) &gt; maxY)\n{\nmaxY = CGRectGetMaxY(subview.frame);\n}\n}\nmaxY += 20; \/\/ changing this value doesn't fix it.\n[bookScrollView setContentSize:CGSizeMake(bookScrollView.frame.size.width, maxY)];\n\n}\n<\/code><\/pre>\n"
+    },
+    {
+      "tags": [
+        "ios",
+        "uiimagepickercontroller"
+      ],
+      "owner": {
+        "reputation": 3,
+        "user_id": 4217417,
+        "user_type": "registered",
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/3292534865d1588b048e82c838791ac7?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Anton",
+        "link": "http:\/\/stackoverflow.com\/users\/4217417\/anton"
+      },
+      "is_answered": false,
+      "view_count": 5,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415361603,
+      "creation_date": 1415361308,
+      "last_edit_date": 1415361603,
+      "question_id": 26800724,
+      "link": "http:\/\/stackoverflow.com\/questions\/26800724\/ios-uiimagepickercontroller-shows-wrong-button-after-locking-phone",
+      "title": "iOS UIImagePickerController shows wrong button after locking phone",
+      "body": "<p>I have an app with <code>take photo<\/code> functionality (like Instagram application).\nI use <code>UIImagePickerController<\/code> with source type is equal to <code>UIImagePickerControllerSourceTypeCamera<\/code> to take photo.<\/p>\n\n<p>After I present <code>UIImagePickerController<\/code> it has one default button: 'Cancel'. After user takes photo there are two buttons: 'Retake' and 'Ready'. But if user lock a screen and unlock it again - there is only 1 button: 'Cancel' and the rest of UI is unresponsive (you cannot touch to take photo button again).<\/p>\n\n<p>Is iOS specific problem or I'm doing something wrong?<\/p>\n"
+    },
+    {
+      "tags": [
+        "ios",
+        "iphone",
+        "uicollectionview"
+      ],
+      "owner": {
+        "reputation": 10,
+        "user_id": 3377677,
+        "user_type": "registered",
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/0082437e69cb0bdf2e8746e766095ef1?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Nirav",
+        "link": "http:\/\/stackoverflow.com\/users\/3377677\/nirav"
       },
       "is_answered": false,
       "view_count": 9,
-      "answer_count": 1,
+      "answer_count": 2,
       "score": 0,
-      "last_activity_date": 1415218416,
-      "creation_date": 1415215528,
-      "question_id": 26765417,
-      "link": "http:\/\/stackoverflow.com\/questions\/26765417\/is-it-possible-for-current-visible-view-controller-to-break-out-of-existing-view",
-      "title": "Is it possible for current visible view controller to break out of existing view hierarchy and be substituted to another?"
-    },
-    {
-      "tags": [
-        "ios",
-        "xcode",
-        "autolayout"
-      ],
-      "owner": {
-        "reputation": 2809,
-        "user_id": 591487,
-        "user_type": "registered",
-        "accept_rate": 96,
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/c5e1a6f7698e7fc0f986262543b5bb9f?s=128&d=identicon&r=PG",
-        "display_name": "inorganik",
-        "link": "http:\/\/stackoverflow.com\/users\/591487\/inorganik"
-      },
-      "is_answered": false,
-      "view_count": 5,
-      "answer_count": 0,
-      "score": 0,
-      "last_activity_date": 1415215358,
-      "creation_date": 1415215358,
-      "question_id": 26765363,
-      "link": "http:\/\/stackoverflow.com\/questions\/26765363\/changing-auto-layout-constraints-at-runtime-in-table-cell",
-      "title": "Changing auto-layout constraints at runtime in table cell"
+      "last_activity_date": 1415361995,
+      "creation_date": 1415361102,
+      "question_id": 26800660,
+      "link": "http:\/\/stackoverflow.com\/questions\/26800660\/how-to-implement-user-interface-containing-four-columns-in-ios-with-different-co",
+      "title": "How to implement user interface containing four columns in ios with different content in each column?",
+      "body": "<p>I want to develop iphone application in which User Interface containing four columns with scrollable content vertically.<\/p>\n\n<p>This simple idea can be implemented with UIcollectionview but i want to load different content in each column of collectionview with vertical scrolling for each.<\/p>\n\n<p>So get me your views on the same how can I implement this?<\/p>\n\n<p>Thanks,\nNirav Patadiya<\/p>\n"
     },
     {
       "tags": [
         "ios",
         "objective-c",
-        "xcode",
-        "storyboard",
-        "xib"
+        "selector"
       ],
       "owner": {
-        "reputation": 1,
-        "user_id": 4219978,
+        "reputation": 459,
+        "user_id": 1272105,
         "user_type": "registered",
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/dfd9192cb37cfa780c923ef42944e48a?s=128&d=identicon&r=PG&f=1",
-        "display_name": "SailingonBroats",
-        "link": "http:\/\/stackoverflow.com\/users\/4219978\/sailingonbroats"
+        "accept_rate": 92,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/6ce5549664fbbc36280e71ed2bc3ef2c?s=128&d=identicon&r=PG",
+        "display_name": "Elisabetta Falivene",
+        "link": "http:\/\/stackoverflow.com\/users\/1272105\/elisabetta-falivene"
       },
       "is_answered": false,
-      "view_count": 11,
-      "answer_count": 1,
-      "score": 0,
-      "last_activity_date": 1415215482,
-      "creation_date": 1415214307,
-      "question_id": 26765057,
-      "link": "http:\/\/stackoverflow.com\/questions\/26765057\/navigation-controller-from-storyboard-to-xib-coding-for-table-cells-not-working",
-      "title": "Navigation Controller from Storyboard to XIB? Coding for table cells not working on Storyboard? Use XIB?"
-    },
-    {
-      "tags": [
-        "ios"
-      ],
-      "owner": {
-        "reputation": 66,
-        "user_id": 2188360,
-        "user_type": "registered",
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/a59e22f825584b139267aa4060092701?s=128&d=identicon&r=PG",
-        "display_name": "Kat R.",
-        "link": "http:\/\/stackoverflow.com\/users\/2188360\/kat-r"
-      },
-      "is_answered": false,
-      "view_count": 7,
-      "answer_count": 1,
-      "score": 0,
-      "last_activity_date": 1415214792,
-      "creation_date": 1415214163,
-      "question_id": 26765015,
-      "link": "http:\/\/stackoverflow.com\/questions\/26765015\/ios-8-force-system-keyboard-for-an-input-field-without-using-securetextentry",
-      "title": "iOS 8 - Force system keyboard for an input field without using secureTextEntry?"
-    },
-    {
-      "tags": [
-        "ios",
-        "xcode",
-        "uitableview",
-        "swift"
-      ],
-      "owner": {
-        "reputation": 64,
-        "user_id": 2872294,
-        "user_type": "registered",
-        "accept_rate": 60,
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/e4d091624e0a618add32662d863952e8?s=128&d=identicon&r=PG&f=1",
-        "display_name": "dMurdZ",
-        "link": "http:\/\/stackoverflow.com\/users\/2872294\/dmurdz"
-      },
-      "is_answered": true,
       "view_count": 18,
-      "answer_count": 2,
-      "score": -1,
-      "last_activity_date": 1415214697,
-      "creation_date": 1415214014,
-      "question_id": 26764967,
-      "link": "http:\/\/stackoverflow.com\/questions\/26764967\/conditionally-show-cells-in-a-static-cell-tableview",
-      "title": "Conditionally show cells in a static cell tableview"
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415361069,
+      "creation_date": 1415361069,
+      "question_id": 26800640,
+      "link": "http:\/\/stackoverflow.com\/questions\/26800640\/how-to-pass-a-variable-to-a-selector-objective-c",
+      "title": "How to pass a variable to a selector (objective c)?",
+      "body": "<p>If i have <\/p>\n\n<pre><code>UITapGestureRecognizer *tapped = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(somefunction:)];\n\n-(void)somefunction :(id) sender{}\n<\/code><\/pre>\n\n<p>What is the right syntax to passa a variable to somefunction? I tried (but it is not working)<\/p>\n\n<pre><code>UITapGestureRecognizer *tapped = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(somefunction: somensstring:)];\n\n-(void)somefunction: (NSString *) somestuff :(id) sender{}\n<\/code><\/pre>\n"
     },
     {
       "tags": [
         "ios",
-        "html5",
-        "modernizr"
+        "handler",
+        "uiactivityviewcontroller"
       ],
       "owner": {
-        "reputation": 54,
-        "user_id": 1811447,
+        "reputation": 271,
+        "user_id": 544795,
         "user_type": "registered",
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/81f9a982605a6988c327fb2868f5f8cb?s=128&d=identicon&r=PG",
-        "display_name": "bjorkblom",
-        "link": "http:\/\/stackoverflow.com\/users\/1811447\/bjorkblom"
+        "accept_rate": 88,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/4507d30e676eddb925caca56bf16b6c8?s=128&d=identicon&r=PG",
+        "display_name": "Sjakelien",
+        "link": "http:\/\/stackoverflow.com\/users\/544795\/sjakelien"
       },
-      "is_answered": true,
-      "view_count": 6,
-      "accepted_answer_id": 26765162,
-      "answer_count": 1,
+      "is_answered": false,
+      "view_count": 2,
+      "answer_count": 0,
       "score": 0,
-      "last_activity_date": 1415214662,
-      "creation_date": 1415214005,
-      "question_id": 26764963,
-      "link": "http:\/\/stackoverflow.com\/questions\/26764963\/why-does-modernizr-set-drag-and-drop-class-for-ios-devices",
-      "title": "Why does Modernizr set drag and drop class for iOS devices"
+      "last_activity_date": 1415361041,
+      "creation_date": 1415361041,
+      "question_id": 26800634,
+      "link": "http:\/\/stackoverflow.com\/questions\/26800634\/no-results-from-setcompletionwithitemshandler",
+      "title": "No results from setCompletionWithItemsHandler",
+      "body": "<p>I'm trying to get my head around the setCompletionWithItemsHandler: part of the UIActivityViewController in iOS8.<\/p>\n\n<p>Eventually, I want to perform an action, if either the operation is cancelled by the user, or can not be completed for any other reason. <\/p>\n\n<p>In order to see what's going on, I put some logging in my code, like this:<\/p>\n\n<pre><code>-(void)shareThis {\n    UIActivityViewController *controller =  [[UIActivityViewController alloc]\n                                             initWithActivityItems:@[text, url, image]\n                                             applicationActivities:nil];\n\n    [controller setCompletionWithItemsHandler:^(NSString *activityType, BOOL completed, NSArray *returnedItems, NSError *activityError) {\n        NSLog(@\"completed: %@, \\n%d, \\n%@, \\n%@,\", activityType, completed, returnedItems, activityError);\n\n    }];\n\n    [self presentViewController:controller animated:YES completion:nil];\n\n}\n<\/code><\/pre>\n\n<p>Somehow, I don't get any logs at all, suggesting that I'm doing something wrong. Is it the order?\nWhile I'm typing this, I realise that I only tested in the Simulator.<\/p>\n"
     },
     {
       "tags": [
         "ios",
         "objective-c",
-        "xcode"
+        "xcode",
+        "swift",
+        "swift-playground"
       ],
       "owner": {
-        "reputation": 1,
-        "user_id": 4154220,
+        "reputation": 142,
+        "user_id": 1389883,
         "user_type": "registered",
-        "profile_image": "http:\/\/graph.facebook.com\/100000354467633\/picture?type=large",
-        "display_name": "Alaa Taher",
-        "link": "http:\/\/stackoverflow.com\/users\/4154220\/alaa-taher"
-      },
-      "is_answered": false,
-      "view_count": 19,
-      "closed_date": 1415217563,
-      "answer_count": 0,
-      "score": -1,
-      "last_activity_date": 1415215459,
-      "creation_date": 1415213828,
-      "last_edit_date": 1415215459,
-      "question_id": 26764918,
-      "link": "http:\/\/stackoverflow.com\/questions\/26764918\/how-to-make-animation-such-as-bottle-feed-of-similac-baby-journal-app",
-      "closed_reason": "unclear what you&#39;re asking",
-      "title": "how to make animation such as bottle feed of Similac Baby Journal app"
-    },
-    {
-      "tags": [
-        "ios",
-        "itunesconnect",
-        "testflight"
-      ],
-      "owner": {
-        "reputation": 6,
-        "user_id": 4083791,
-        "user_type": "registered",
-        "profile_image": "https:\/\/www.gravatar.com\/avatar\/92b1f2203f5cd01b5e2153543aed582a?s=128&d=identicon&r=PG&f=1",
-        "display_name": "Kurt Anderson",
-        "link": "http:\/\/stackoverflow.com\/users\/4083791\/kurt-anderson"
+        "accept_rate": 62,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/e39b27de7a67b60e63cee3769e454569?s=128&d=identicon&r=PG",
+        "display_name": "iamnp",
+        "link": "http:\/\/stackoverflow.com\/users\/1389883\/iamnp"
       },
       "is_answered": true,
-      "view_count": 22,
-      "accepted_answer_id": 26765173,
-      "answer_count": 2,
-      "score": 0,
-      "last_activity_date": 1415214712,
-      "creation_date": 1415213594,
-      "question_id": 26764844,
-      "link": "http:\/\/stackoverflow.com\/questions\/26764844\/unable-to-invite-external-users-to-beta-my-ios-app",
-      "title": "Unable to invite external users to beta my iOS app"
+      "view_count": 10,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1415361709,
+      "creation_date": 1415361028,
+      "question_id": 26800629,
+      "link": "http:\/\/stackoverflow.com\/questions\/26800629\/swift-closure-strange-behaviour",
+      "title": "Swift closure strange behaviour",
+      "body": "<p>Why does this code compile (in Playground):<\/p>\n\n<pre><code>func text (f: String -&gt; Void) {\n    f(\"text\")\n}\n\nfunc foo(s: String) {\n    countElements(s)\n}\n\ntext() {\n    s in\n        foo(s)\n}\n<\/code><\/pre>\n\n<p>And this one doesn't:<\/p>\n\n<pre><code>func text (f: String -&gt; Void) {\n    f(\"text\")\n}\n\nfunc foo(s: String) {\n    countElements(s)\n}\n\ntext() {\n    s in\n        countElements(s)\n}\n<\/code><\/pre>\n\n<p>With error message:<\/p>\n\n<pre><code>Cannot convert the expression's type '(($T3) -&gt; ($T3) -&gt; $T2) -&gt; (($T3) -&gt; $T2) -&gt; $T2'       to type '_BuiltinIntegerLiteralConvertible'\n<\/code><\/pre>\n\n<p>I can tell that there is something with return type, kinda Swift thinks that I want to return  int but I just want to print it<\/p>\n"
     },
     {
       "tags": [
         "ios",
-        "ios8",
-        "applepay"
+        "multithreading",
+        "nstimer"
       ],
       "owner": {
-        "reputation": 974,
-        "user_id": 240958,
+        "reputation": 8,
+        "user_id": 4117749,
         "user_type": "registered",
-        "accept_rate": 82,
-        "profile_image": "http:\/\/i.stack.imgur.com\/ueb7e.jpg?s=128&g=1",
-        "display_name": "Charith Nidarsha",
-        "link": "http:\/\/stackoverflow.com\/users\/240958\/charith-nidarsha"
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/58eefa57a41245698d3235a2fa693fd3?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Petschuschkah",
+        "link": "http:\/\/stackoverflow.com\/users\/4117749\/petschuschkah"
       },
       "is_answered": false,
       "view_count": 4,
       "answer_count": 0,
       "score": 0,
-      "last_activity_date": 1415213456,
-      "creation_date": 1415213456,
-      "question_id": 26764802,
-      "link": "http:\/\/stackoverflow.com\/questions\/26764802\/testing-applepay-sdk",
-      "title": "Testing ApplePay SDK"
+      "last_activity_date": 1415361017,
+      "creation_date": 1415361017,
+      "question_id": 26800627,
+      "link": "http:\/\/stackoverflow.com\/questions\/26800627\/ios-how-to-create-a-timer-in-an-extra-thread",
+      "title": "iOS: How to create a Timer in an extra Thread",
+      "body": "<p>I want to create a timer within an extra thread of my application. I am very new to cocoa touch so I appreciate all good explanations. Thank you!<\/p>\n\n<p>With best regards\n:-)<\/p>\n"
+    },
+    {
+      "tags": [
+        "ios",
+        "iphone",
+        "sdk",
+        "xmpp",
+        "ejabberd"
+      ],
+      "owner": {
+        "reputation": 16,
+        "user_id": 3836004,
+        "user_type": "registered",
+        "accept_rate": 50,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/ad0d365923086ec8fee172b219e687de?s=128&d=identicon&r=PG&f=1",
+        "display_name": "efimovD",
+        "link": "http:\/\/stackoverflow.com\/users\/3836004\/efimovd"
+      },
+      "is_answered": false,
+      "view_count": 5,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415360921,
+      "creation_date": 1415360921,
+      "question_id": 26800596,
+      "link": "http:\/\/stackoverflow.com\/questions\/26800596\/xep-0055-with-ios-and-ejabberd",
+      "title": "XEP - 0055 with iOS and ejabberd?",
+      "body": "<p>I am trying to implement XEP-0055 which is supported by ejabbed as shown here in <a href=\"https:\/\/www.ejabberd.im\/protocols\" rel=\"nofollow\">supported xeps<\/a><\/p>\n\n<p>This is my request:<\/p>\n\n<pre><code>XMPPIQ *iq = [[XMPPIQ alloc] init];\n[iq addAttributeWithName:@\"type\" stringValue:@\"get\"];\n[iq addAttributeWithName:@\"from\" stringValue:@\"testuser1@company.com\"];\n[iq addAttributeWithName:@\"to\" stringValue:@\"company.com\"];\n[iq addAttributeWithName:@\"id\" stringValue:@\"search1\"];\nXMPPElement *query = [XMPPElement elementWithName:@\"query\"];\n[query setXmlns:@\"jabber:iq:search\"];\n[iq addChild:query];\n[self.xmppStream sendElement:iq];\n<\/code><\/pre>\n\n<p>I am getting this response:<\/p>\n\n<pre><code>&lt;iq xmlns=\"jabber:client\" from=\"company.com\" to=\"testuser1@company.com\/2834146151141475281662718\" type=\"error\" id=\"search1\"&gt;\n&lt;query xmlns=\"jabber:iq:search\"\/&gt;\n&lt;error code=\"501\" type=\"cancel\"&gt;\n&lt;feature-not-implemented xmlns=\"urn:ietf:params:xml:ns:xmpp-stanzas\"\/&gt;\n&lt;\/error&gt;\n&lt;\/iq&gt;\n<\/code><\/pre>\n\n<p>Why am I receiving feature-not-implemented? Link to official XEP <a href=\"http:\/\/xmpp.org\/extensions\/xep-0055.html\" rel=\"nofollow\">description.<\/a><\/p>\n"
+    },
+    {
+      "tags": [
+        "javascript",
+        "ios",
+        "web-services",
+        "cordova",
+        "asmx"
+      ],
+      "owner": {
+        "reputation": 358,
+        "user_id": 1874877,
+        "user_type": "registered",
+        "accept_rate": 87,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/e8bc6f17eb6cc6f6dbd488593b08f1a8?s=128&d=identicon&r=PG",
+        "display_name": "IPL",
+        "link": "http:\/\/stackoverflow.com\/users\/1874877\/ipl"
+      },
+      "is_answered": false,
+      "view_count": 6,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415360740,
+      "creation_date": 1415360740,
+      "question_id": 26800528,
+      "link": "http:\/\/stackoverflow.com\/questions\/26800528\/ios-using-javascript-consuming-asmx-web-service-in-phonegap",
+      "title": "iOS using javascript consuming asmx web service in phonegap",
+      "body": "<p>I am developing my first <code>iOS<\/code> <code>Phonegap<\/code> app, in which I want to consume <code>asmx web service<\/code> using <code>javascript<\/code>. My code is running well and I am getting possitive response in browse. but when the same code implementing in the <code>Xcode<\/code> there is no result. Please help me out. Below is the code.<\/p>\n\n<p>Below is index.html<\/p>\n\n<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n    &lt;script src=\"http:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.11.1\/jquery.min.js\"&gt;     &lt;\/script&gt;\n    &lt;script src=\"js\/CrossDm.js\"&gt;&lt;\/script&gt;\n&lt;\/head&gt;\n&lt;body&gt;\n\n   &lt;div&gt;\n       &lt;input type=\"text\" id=\"username\" \/&gt;\n       &lt;input id=\"button1\" type=\"button\" value=\"Click\" onclick=\"initiateConversion()\"\/&gt;\n\n       &lt;table id=\"table1\"&gt;\n       &lt;\/table&gt;\n   &lt;\/div&gt;\n&lt;\/body&gt;\n&lt;\/html&gt;\n<\/code><\/pre>\n\n<p>below code is CrosssDm.js <\/p>\n\n<pre><code>var xmlhttprequest = null;\n\nfunction initiateConversion() {\n\nxmlhttprequest = createRequestObject();\nvar url = \"http:\/\/abc.asmx\/WalletBalance?username=\" + document.getElementById(\"username\").value;     \/\/  url \n\nxmlhttprequest.open(\"GET\", url, true);\nxmlhttprequest.onreadystatechange = getData;\nxmlhttprequest.send(null);\n}\n\nfunction createRequestObject() {\nif (window.XMLHttpRequest) {\n    return xmlhttprequest = new XMLHttpRequest();\n}\nelse if (window.ActiveXObject) {\n    return xmlhttprequest = new ActiveXObject(\"Microsoft.XMLHTTP\");\n}\n}\n\nfunction getData() {\nif ((xmlhttprequest.readyState == 4) &amp;&amp; (xmlhttprequest.status == 200)) {\n    var myXml = xmlhttprequest.responseXML;\n    var xmlobject = null;\n    var XMLText = null;\n    if (window.ActiveXObject) {\n        XMLText = myXml.childNodes[0].firstChild.nodeValue;\n    }\n    else {\n        XMLText = myXml.childNodes[0].firstChild.nodeValue;\n    }\n\n    var table = document.getElementById(\"table1\");\n    var tablecell = row.insertCell(row.cells.length);\n    tablecell.appendChild(document.createTextNode(document.getElementById(\"username\").value));                               \n    var tablecell = row.insertCell(row.cells.length);\n    tablecell.appendChild(document.createTextNode(XMLText));\n    table.setAttribute(\"border\", \"2\");\n}\n}\n<\/code><\/pre>\n\n<p>Above code giving no error. I also have added web links in the <code>Cordova.plist<\/code>\nPlease help, thanks in advance.<\/p>\n"
+    },
+    {
+      "tags": [
+        "ios",
+        "wifi-direct",
+        "gopro"
+      ],
+      "owner": {
+        "reputation": 373,
+        "user_id": 460115,
+        "user_type": "registered",
+        "accept_rate": 92,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/580fdc9155e801d5541534963a6b080e?s=128&d=identicon&r=PG",
+        "display_name": "Yau Leung",
+        "link": "http:\/\/stackoverflow.com\/users\/460115\/yau-leung"
+      },
+      "is_answered": false,
+      "view_count": 2,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415360394,
+      "creation_date": 1415360394,
+      "question_id": 26800433,
+      "link": "http:\/\/stackoverflow.com\/questions\/26800433\/livestreaming-gopro-without-losing-3g-lte-connection",
+      "title": "Livestreaming GOPRO without losing 3G\/LTE connection",
+      "body": "<p>In my understanding, when the iPhone connects to GoPRO's wifi.  It will lose Internet connection as it thought GoPRO should provide internet access through Wifi.  It is the case when I'm using eye-fi eye.  Then how does the Livestream app works?<\/p>\n\n<p><a href=\"http:\/\/techcrunch.com\/2014\/10\/06\/stream-live-video-from-a-gopro-with-livestreams-latest-ios-app\/\" rel=\"nofollow\">http:\/\/techcrunch.com\/2014\/10\/06\/stream-live-video-from-a-gopro-with-livestreams-latest-ios-app\/<\/a><\/p>\n"
+    },
+    {
+      "tags": [
+        "ios",
+        "uinavigationcontroller"
+      ],
+      "owner": {
+        "reputation": 25,
+        "user_id": 3860757,
+        "user_type": "registered",
+        "accept_rate": 67,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/526d766891778de53f30c8da64c697e1?s=128&d=identicon&r=PG&f=1",
+        "display_name": "RaviJSS",
+        "link": "http:\/\/stackoverflow.com\/users\/3860757\/ravijss"
+      },
+      "is_answered": false,
+      "view_count": 9,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415360707,
+      "creation_date": 1415360205,
+      "last_edit_date": 1415360707,
+      "question_id": 26800379,
+      "link": "http:\/\/stackoverflow.com\/questions\/26800379\/add-button-for-open-specific-page-from-top-of-view-slider-notification",
+      "title": "Add button for open specific page from top of view slider notification",
+      "body": "<p>i am using the method for showing a specific page from  upper side scrolling view there i have add a custom button for it and call this method in appdelegate like<\/p>\n\n<pre><code>-(BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url\n   {\n         TTNavigator *navigator = [TTNavigator navigator];\n        _skip = [[NSUserDefaults standardUserDefaults]valueForKey:@\"skipkey\"];\n        _login = [[NSUserDefaults standardUserDefaults]valueForKey:@\"LogKey\"];\n        if ([_skip isEqualToString:@\"skip\"] || [_login isEqualToString:@\"Log\"])\n        {\n             [navigator removeAllViewControllers];\n            [navigator openURLAction:[TTURLAction actionWithURLPath:@\"tt:\/\/newCase\"]];\n            return YES;\n\n        }\n        else\n            {\n\n                if (![navigator restoreViewControllers])\n                {\n\n                    [navigator openURLAction:[TTURLAction actionWithURLPath:@\"tt:\/\/finalLogin\"]];\n                    return YES;\n                }\n\n            }\n\n        return NO;\n   }\n<\/code><\/pre>\n\n<p>all are working fine but when it open \"newcase view\" and if we goes to application in background and if i click custom button for this method views are open all time view open but   there are back button in navigation work for previous view show only same view for number of times that custom button have clicked.\nplease help   <\/p>\n"
+    },
+    {
+      "tags": [
+        "objective-c",
+        "xcode",
+        "memory",
+        "optimization",
+        "large-data"
+      ],
+      "owner": {
+        "reputation": 630,
+        "user_id": 1115918,
+        "user_type": "registered",
+        "accept_rate": 94,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/c91618c833c53d168a46aeff141cbb03?s=128&d=identicon&r=PG",
+        "display_name": "Olter",
+        "link": "http:\/\/stackoverflow.com\/users\/1115918\/olter"
+      },
+      "is_answered": false,
+      "view_count": 8,
+      "answer_count": 0,
+      "score": 1,
+      "last_activity_date": 1415359991,
+      "creation_date": 1415359991,
+      "question_id": 26800319,
+      "link": "http:\/\/stackoverflow.com\/questions\/26800319\/memory-overkill-when-using-nsmutablearrays-with-large-number-of-elements",
+      "title": "Memory overkill when using NSMutableArrays with large number of elements",
+      "body": "<p>When working with extremely large amount of elements, I often face problems with memory for some methods and operations. In my case, I have arrays with about 100 000 elements. Several operations cause memory overkill, and I want to know the best way to optimize them. <\/p>\n\n<p>I'm using using XCode 5.1.1 and ARC is turned on.<\/p>\n\n<p>Here are a couple of samples:<\/p>\n\n<hr>\n\n<p>1) Adding large number of elements into NSMutableArray.<\/p>\n\n<p>I need to add number of elements from array to array if some condition is checked:<\/p>\n\n<pre><code>for(NSString* value in files) {\n                if (!condition) {\n                    [filesToRemove addObject:value];\n                }\n        }\n<\/code><\/pre>\n\n<p>Number of elements in files is about 50K - 100K. This sample will cause memory overkill. RAM usage will start to increase in arithmetic progression. So, to prevent it I can wrap this into @autoreleasepool<\/p>\n\n<pre><code>for(NSString* value in files) {\n               @autoreleasepool {\n                   if (!condition) {\n                       [filesToRemove addObject:value];\n                   }\n               }\n        }\n<\/code><\/pre>\n\n<p>I found a similar question to this issue: <a href=\"http:\/\/stackoverflow.com\/questions\/11885053\/do-loops-and-convenience-methods-cause-memory-peaks-with-arc\">Do loops and convenience methods cause memory peaks with ARC?<\/a><\/p>\n\n<p>So, using <code>@autoreleasepool<\/code> can solve this one. Any better solutions?<\/p>\n\n<hr>\n\n<p>2) Subtracting array from array.<\/p>\n\n<p>This one is more tricky. I have two arrays, first one is about 100K, second is about 50K, and I need to subtract one from another.<\/p>\n\n<p>First try:<\/p>\n\n<pre><code>[files removeObjectsInArray:filesToRemove];\n<\/code><\/pre>\n\n<p>That'll cause memory overkill. Why is this happening? It seems to me, that <code>removeObjectsInArray<\/code> method has the same behavior as 1). I don't know, how this method works, but I can imagine,that basically, we just go through one array in loop, then go through second array in loop and check if current element from array1 is equal to each element in array2.<\/p>\n\n<p>In pseudo code, that'll look like that:<\/p>\n\n<pre><code>for (int i = 0; i &lt; files.count; i++)\n{\n    for (int j = 0; j &lt; filesToRemove.count; j++)\n    {\n       if ([filesToRemove[j] isEqualTo:files[i]])\n       {\n            [files removeObject:filesToRemove[j]];\n            \/\/ perhaps break here?\n       }\n    }\n}\n<\/code><\/pre>\n\n<p>Am I right? If I'll use this code instead of <code>removeObjectsInArray<\/code> and use <code>@autoreleasepool<\/code> in loops, will that cause the same effect as <code>removeObjectsInArray<\/code> method?<\/p>\n\n<hr>\n\n<p><strong>My question is:<\/strong><\/p>\n\n<p>How to solve issue \u21162? Is my assumption correct? Any better ways?<\/p>\n\n<p>What's the best way to work with such large amount of data? These arrays usually contain strings values. Perhaps using NSMutableDictionary instead of NSMutableArray will be faster? Because, even if I solve issue with memory usage, the speed of these operations is still quite slow.<\/p>\n"
+    },
+    {
+      "tags": [
+        "ios",
+        "swift",
+        "iboutlet"
+      ],
+      "owner": {
+        "reputation": 3,
+        "user_id": 3150426,
+        "user_type": "registered",
+        "profile_image": "http:\/\/i.stack.imgur.com\/UIR6u.jpg?s=128&g=1",
+        "display_name": "loanburger",
+        "link": "http:\/\/stackoverflow.com\/users\/3150426\/loanburger"
+      },
+      "is_answered": false,
+      "view_count": 27,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415359141,
+      "creation_date": 1415359141,
+      "question_id": 26800093,
+      "link": "http:\/\/stackoverflow.com\/questions\/26800093\/setting-iboutlet-in-closure-result-in-swift",
+      "title": "Setting @IBOutlet in closure result in Swift",
+      "body": "<p>Hello I am continuing my Swift adventure and very much enjoying it.  But now I'm stuck.  I have this View Controller below.<\/p>\n\n<p>In the viewDidLoad() function I call a function in my model - homeModel.GetHomeData(self.resultHandler) - which after a NSURLSessionDataTask returns me a string.  <\/p>\n\n<p>I pass it a resultHandler and successfully get my string as expected.<\/p>\n\n<p><strong>So the problem<\/strong>:  I am trying to now set the TextView in my view.  I declared the Outlet and connected it - but when I try and set the text in the resultHandler I get an error which seems like a Thread error.<\/p>\n\n<p>Is it because I am now on a different Thread that I cannot access the IBOutlet homeTextView to set the result text.<\/p>\n\n<p><strong>My code:<\/strong><\/p>\n\n<pre><code>class FirstViewController: UIViewController\n{\n\/\/ VIew Outlets\n@IBOutlet var homeTextView:UITextView!\n\n\/\/ properties\nlet homeModel = HomeModel()\n\n\noverride func viewDidLoad()\n{\n    super.viewDidLoad()\n\n     \/\/ Go load the home page content\n     homeModel.GetHomeData(self.resultHandler)\n}\n\noverride func didReceiveMemoryWarning()\n{\n    super.didReceiveMemoryWarning()\n    \/\/ Dispose of any resources that can be recreated.\n}\n\nfunc resultHandler(textResult:String!)\n{\n    \/\/ Result Text Has valid text\n\n   homeTextView.text = textResult\n}\n<\/code><\/pre>\n\n<p>Some help would be much appreciated.<\/p>\n\n<p>Cheers,<\/p>\n"
+    },
+    {
+      "tags": [
+        "ios",
+        "iphone",
+        "xcode",
+        "osx",
+        "core-bluetooth"
+      ],
+      "owner": {
+        "reputation": 269,
+        "user_id": 2764966,
+        "user_type": "registered",
+        "accept_rate": 80,
+        "profile_image": "http:\/\/i.stack.imgur.com\/47rKa.jpg?s=128&g=1",
+        "display_name": "ViruMax",
+        "link": "http:\/\/stackoverflow.com\/users\/2764966\/virumax"
+      },
+      "is_answered": false,
+      "view_count": 10,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415359084,
+      "creation_date": 1415359084,
+      "question_id": 26800073,
+      "link": "http:\/\/stackoverflow.com\/questions\/26800073\/can-i-test-corebluetooth-ios-application-without-using-third-party-blebluetooth",
+      "title": "Can I test CoreBluetooth iOS application without using third party BLE(Bluetooth Low Energy) device?",
+      "body": "<p>I have Mac mini and iOS device having BLE(Bluetooth version 4.0) support.<\/p>\n\n<p>I am developing an application which works with BLE supported heart rate and foot pod connectors. But right now I am not having any of those connectors. <\/p>\n\n<p>So will I be able to test my application only using Mac mini and iOS device?\n(As there was support of BLE in iOS simulator before iOS7 but now it has been removed.)<\/p>\n\n<p>Thanks in advance.<\/p>\n"
+    },
+    {
+      "tags": [
+        "c++",
+        "ios",
+        "cocos2d-x"
+      ],
+      "owner": {
+        "reputation": 8,
+        "user_id": 3139174,
+        "user_type": "registered",
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/ad65366cb5b9c1775238a9ed53acf89c?s=128&d=identicon&r=PG&f=1",
+        "display_name": "anil72178",
+        "link": "http:\/\/stackoverflow.com\/users\/3139174\/anil72178"
+      },
+      "is_answered": false,
+      "view_count": 9,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415359553,
+      "creation_date": 1415359069,
+      "last_edit_date": 1415359553,
+      "question_id": 26800069,
+      "link": "http:\/\/stackoverflow.com\/questions\/26800069\/cocos2dx-2-2-3-undefined-symbols-for-architecture-arm64-webpinitdecoderconfig",
+      "title": "Cocos2dx 2.2.3 Undefined symbols for architecture arm64 :: WebPInitDecoderConfigInternal",
+      "body": "<p>I am developing cocos2dx game. when i run game on simuloator that works good but when start to archive follwing error are produce IN XCODE 6.0<\/p>\n\n<p>Undefined symbols for architecture arm64:<\/p>\n\n<p>\"_WebPInitDecoderConfigInternal\", referenced from:\n      cocos2d::CCImage::_initWithWebpData(void*, int) in libcocos2dx.a(CCImageCommonWebp.o)<\/p>\n\n<p>\"_WebPGetFeaturesInternal\", referenced from:\n      cocos2d::CCImage::_initWithWebpData(void*, int) in libcocos2dx.a(CCImageCommonWebp.o)<\/p>\n\n<p>\"_WebPDecode\", referenced from:\n      cocos2d::CCImage::_initWithWebpData(void*, int) in libcocos2dx.a(CCImageCommonWebp.o)<\/p>\n\n<p>ld: symbol(s) not found for architecture arm64\nclang: error: linker command failed with exit code 1 (use -v to see invocation)<\/p>\n"
     },
     {
       "tags": [
         "android",
         "ios",
-        "authentication",
-        "web",
-        "parse.com"
+        "push-notification",
+        "titanium",
+        "pushwoosh"
       ],
       "owner": {
-        "reputation": 16,
-        "user_id": 3745751,
+        "reputation": 7,
+        "user_id": 2842194,
         "user_type": "registered",
-        "profile_image": "http:\/\/graph.facebook.com\/844379835\/picture?type=large",
-        "display_name": "user3745751",
-        "link": "http:\/\/stackoverflow.com\/users\/3745751\/user3745751"
+        "accept_rate": 100,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/b8bcb8eeab00b287ab87449cde2e613f?s=128&d=identicon&r=PG&f=1",
+        "display_name": "R. Horiguchi",
+        "link": "http:\/\/stackoverflow.com\/users\/2842194\/r-horiguchi"
       },
       "is_answered": false,
-      "view_count": 10,
+      "view_count": 8,
       "answer_count": 0,
       "score": 0,
-      "last_activity_date": 1415213253,
-      "creation_date": 1415213253,
-      "question_id": 26764758,
-      "link": "http:\/\/stackoverflow.com\/questions\/26764758\/parse-com-login-send-credentials-from-app-to-website",
-      "title": "Parse.com Login: Send credentials from app to website."
+      "last_activity_date": 1415358830,
+      "creation_date": 1415358830,
+      "question_id": 26800012,
+      "link": "http:\/\/stackoverflow.com\/questions\/26800012\/is-it-possible-to-send-with-pushwoosh-custom-push-notification-with-certain-para",
+      "title": "Is it possible to send with pushwoosh custom push-notification with certain parameters that are saved locally on the device",
+      "body": "<p>I'm developing in Titanium a cross platform app that runs on IOS and Android. To send my push notification I'm considering using Pushwoosh but I'm open to suggestion.<\/p>\n\n<p>On the app certain parameters are saved locally that will effect the content of the push notification. Is it now possible to get these locally saved parameters to Pushwoosh so I can send custom notification and how would I do that?<\/p>\n"
+    },
+    {
+      "tags": [
+        "ios",
+        "objective-c",
+        "nspredicate",
+        "icloud",
+        "cloudkit"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 4226658,
+        "user_type": "registered",
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/d5115eb9d3b909e6146ec195766e565d?s=128&d=identicon&r=PG&f=1",
+        "display_name": "austin9350",
+        "link": "http:\/\/stackoverflow.com\/users\/4226658\/austin9350"
+      },
+      "is_answered": false,
+      "view_count": 6,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415358537,
+      "creation_date": 1415358537,
+      "question_id": 26799924,
+      "link": "http:\/\/stackoverflow.com\/questions\/26799924\/cloudkit-subscription-with-contains-predicate",
+      "title": "CloudKit subscription with &quot;CONTAINS&quot; predicate",
+      "body": "<p>I am trying to setup a CloudKit subscription based on testing membership in an array.<\/p>\n\n<p>The code I'm using to create the subscription is as follows:<\/p>\n\n<pre><code>NSPredicate *predicate = [NSPredicate predicateWithFormat:@\"users CONTAINS %@\", userID];\nCKSubscription *itemSubscription = [[CKSubscription alloc] initWithRecordType:@\"foo\"\n                                                                predicate:predicate\n                                                                  options:CKSubscriptionOptionsFiresOnRecordCreation|CKSubscriptionOptionsFiresOnRecordUpdate];\n\nCKNotificationInfo *notificationInfo = [[CKNotificationInfo alloc] init];\n[notificationInfo setAlertLocalizationKey:@\"Record notification\"];\n[notificationInfo setShouldBadge:YES];\n\n[itemSubscription setNotificationInfo:notificationInfo];\n\n[database saveSubscription:itemSubscription completionHandler:^(CKSubscription *subscription, NSError *error) {\n    NSLog(@\"Error: %@, Subscription: %@\", error, subscription);\n}];\n<\/code><\/pre>\n\n<p>The log shows that the subscription is created successfully, however when I test by adding or changing a record via the CloudKit admin console I never get a notification on device.<\/p>\n\n<p>I am able to receive notifications for subscriptions with other kinds of predicates (I've tested with a simple true predicate, and one that tests equality against a string field), so I know I have the notification code setup correctly.<\/p>\n\n<p>I've also verified that my predicate listed above works when used in a fetch records query, so I know the predicate is setup correctly for the record type I have in CloudKit.<\/p>\n\n<p>Has anyone been able to get subscription notifications with a predicate that tests for membership in an array?<\/p>\n"
+    },
+    {
+      "tags": [
+        "ios",
+        "xcode",
+        "adobe-illustrator"
+      ],
+      "owner": {
+        "reputation": 14,
+        "user_id": 2533434,
+        "user_type": "registered",
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/c3cdc6cf458121ad22910181aa0fd72e?s=128&d=identicon&r=PG",
+        "display_name": "\u05e0\u05d1\u05d5 \u05e9\u05dc\u05d5",
+        "link": "http:\/\/stackoverflow.com\/users\/2533434\/%d7%a0%d7%91%d7%95-%d7%a9%d7%9c%d7%95"
+      },
+      "is_answered": false,
+      "view_count": 8,
+      "answer_count": 0,
+      "score": -1,
+      "last_activity_date": 1415358356,
+      "creation_date": 1415358356,
+      "question_id": 26799875,
+      "link": "http:\/\/stackoverflow.com\/questions\/26799875\/viewing-ai-and-psd-files",
+      "title": "Viewing .ai and PSD files",
+      "body": "<p>I am creating an app and a part of it is viewing files I use the built in file viewer but it appears not to show .ai (illustrator files) is PSD files (photoshop).<\/p>\n\n<p>Do you have a solution? \nThanks.<\/p>\n"
+    },
+    {
+      "tags": [
+        "ios",
+        "uiwebview",
+        "video-streaming",
+        "mpmovieplayercontroller",
+        "nsurlprotocol"
+      ],
+      "owner": {
+        "reputation": 1505,
+        "user_id": 1578401,
+        "user_type": "registered",
+        "accept_rate": 50,
+        "profile_image": "http:\/\/i.stack.imgur.com\/9j5Ru.jpg?s=128&g=1",
+        "display_name": "iProgrammer",
+        "link": "http:\/\/stackoverflow.com\/users\/1578401\/iprogrammer"
+      },
+      "is_answered": false,
+      "view_count": 5,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415358317,
+      "creation_date": 1415358317,
+      "question_id": 26799868,
+      "link": "http:\/\/stackoverflow.com\/questions\/26799868\/video-streaming-in-mpmovieplayercontroller-embedded-in-uiwebview",
+      "title": "Video streaming in MPMoviePlayerController embedded in UIWebView",
+      "body": "<p>I want to know that how networking streaming is performed in MPMoviePlayerController embedded in UIWebView in iOS. Is it performed using sockets or any other approach? <\/p>\n\n<p>Firstly please understand my problem, I am playing youtube videos in UIWebView. When the video is loaded and start to play, MPMoviePlayerController (or something like that) is instantiated automatically. Now the thing is I want to pass all the urls through my proxy server along with some private message. I am using the following approach:<\/p>\n\n<p><strong>APPROACH 1<\/strong><\/p>\n\n<p>Create my own Custom NSURLProtocol Class and intercept every request and then open a socket, write my private message and then write GET\/POST message and pass the response to webview. Everything's working fine. But when video start playing we did not get url requests so Its difficult to trace the url is passing through my proxy. <\/p>\n\n<p>I have read in SO that MPMoviePlayerController didnot conform to NSURLProtocol, so we cannot intercept Requests flow through Video Controller. Here is the link: <\/p>\n\n<p><a href=\"http:\/\/stackoverflow.com\/questions\/4383388\/how-to-play-movie-with-a-url-using-a-custom-nsurlprotocol\">How to play movie with a URL using a custom NSURLProtocol?<\/a><\/p>\n\n<p><strong>APPROACH 2<\/strong><\/p>\n\n<p>I override connect(), write() and read() methods and then print logs to find if the video data is flowing through read() and write() methods. But Still I am not getting the desired results. My all other network requests pass through these overriden methods, but only VideoData is not showing, Which means that MPMoviePlayerController not using sockets and read, write methods. Or Webview start a another process internally to instantiate Player.<\/p>\n\n<p>How can I assure that MPMoviePlayerController did not creating a new process internally. <\/p>\n\n<p>And if any one has a idea how to achieve this, plz share. Any help is appreciated. I am stuck into this. <\/p>\n"
+    },
+    {
+      "tags": [
+        "ios",
+        "ekevent",
+        "ekeventstore"
+      ],
+      "owner": {
+        "reputation": 484,
+        "user_id": 2552460,
+        "user_type": "registered",
+        "profile_image": "http:\/\/i.stack.imgur.com\/GUquR.jpg?s=128&g=1",
+        "display_name": "Hiren",
+        "link": "http:\/\/stackoverflow.com\/users\/2552460\/hiren"
+      },
+      "is_answered": false,
+      "view_count": 6,
+      "answer_count": 0,
+      "score": 1,
+      "last_activity_date": 1415358197,
+      "creation_date": 1415358197,
+      "question_id": 26799833,
+      "link": "http:\/\/stackoverflow.com\/questions\/26799833\/how-to-remove-reminder-saved-as-an-ekreminder",
+      "title": "How to remove reminder saved as an EKReminder?",
+      "body": "<p>I have saved a reminder using EKReminder,now I want to remove this reminder from EKReminder.\nI have date and time of the reminder to be removed. I tried using NSPRedicate but it didn't work for me.<\/p>\n\n<p>I am using this code:<\/p>\n\n<pre><code>EKEventStore *eventStore = [[EKEventStore alloc] init] ;\n\n            EKReminder *reminder = [EKReminder\n                                    reminderWithEventStore:eventStore];\n\n            reminder.calendar = [eventStore defaultCalendarForNewReminders];\n\n            EKAlarm *reminderDate = [EKAlarm alarmWithAbsoluteDate:removeReminder];\n            [reminder removeAlarm:reminderDate];\n\n            NSError *error = nil;\n\n            [eventStore removeReminder:reminder commit:YES error:&amp;error];\n\n            if (error)\n            {\n                NSLog(@\"error = %@\", error);\n            }\n            else{\n                NSLog(@\"Reminder removed successfully\");\n            }\n<\/code><\/pre>\n\n<p>Where removeReminder is my date.<\/p>\n\n<p>Please suggest me if there is problem with this code.<\/p>\n"
+    },
+    {
+      "tags": [
+        "ios",
+        "uiviewcontroller",
+        "rotation",
+        "ios8"
+      ],
+      "owner": {
+        "reputation": 2026,
+        "user_id": 239219,
+        "user_type": "registered",
+        "accept_rate": 84,
+        "profile_image": "http:\/\/i.stack.imgur.com\/poRTf.jpg?s=128&g=1",
+        "display_name": "J&#225;nos",
+        "link": "http:\/\/stackoverflow.com\/users\/239219\/j%c3%a1nos"
+      },
+      "is_answered": false,
+      "view_count": 14,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415358912,
+      "creation_date": 1415357587,
+      "last_edit_date": 1415358912,
+      "question_id": 26799625,
+      "link": "http:\/\/stackoverflow.com\/questions\/26799625\/why-viewwilltransitiontosize-pass-wrong-size-in",
+      "title": "Why viewWillTransitionToSize pass wrong size in?",
+      "body": "<p>I adjust a constraint in a iOS8 rotation delegate method, but size is not the same what I can see on device, why?<\/p>\n\n<pre><code>override func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {\n\n    println(\"size: \\(size)\")\n    super.viewWillTransitionToSize(size, withTransitionCoordinator: coordinator)\n    widthConstraint.constant = (size.width \/ 8.0) - 4.0\n}\n<\/code><\/pre>\n\n<p><code>size: (1024.0,768.0)<\/code><\/p>\n\n<p>But real size is smaller then full iPad size.<\/p>\n\n<p>Testing on real device, and viewController is an embedded container view controller.<\/p>\n\n<p>It seems in somehow I get the parentViewController's view size.<\/p>\n\n<p><img src=\"http:\/\/i.stack.imgur.com\/PayCp.png\" alt=\"enter image description here\"><\/p>\n"
+    },
+    {
+      "tags": [
+        "ios",
+        "swift",
+        "google-analytics"
+      ],
+      "owner": {
+        "reputation": 50,
+        "user_id": 918602,
+        "user_type": "registered",
+        "accept_rate": 50,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/98964f9449387bd6a6f4099ee4e37391?s=128&d=identicon&r=PG",
+        "display_name": "Skoua",
+        "link": "http:\/\/stackoverflow.com\/users\/918602\/skoua"
+      },
+      "is_answered": false,
+      "view_count": 12,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1415357338,
+      "creation_date": 1415357338,
+      "question_id": 26799535,
+      "link": "http:\/\/stackoverflow.com\/questions\/26799535\/using-google-analytics-with-swift-on-ios",
+      "title": "Using Google Analytics with Swift on iOS",
+      "body": "<p>I'm trying to use GA with a Swift project.<\/p>\n\n<p>I installed the SDK correctly but I can't send Screen Measurements manually because some objects are not found.<\/p>\n\n<p>Here's the code given by Google:<\/p>\n\n<pre><code>\/\/ May return nil if a tracker has not already been initialized with a\n\/\/ property ID.\nid tracker = [[GAI sharedInstance] defaultTracker];\n\n\/\/ This screen name value will remain set on the tracker and sent with\n\/\/ hits until it is set to a new value or to nil.\n[tracker set:kGAIScreenName\n   value:@\"Home Screen\"];\n\n\/\/ New SDK versions\n[tracker send:[[GAIDictionaryBuilder createScreenView] build]];\n<\/code><\/pre>\n\n<p>Here's my code:<\/p>\n\n<pre><code>let tracker = GAI.sharedInstance()\ntracker.setValue(kGai, forKey: \"\/index\")\ntracker.send(GAIDictionaryBuilder.createScreenView().build)\n<\/code><\/pre>\n\n<p>And here's the errors I get:<\/p>\n\n<pre><code>Use of unresolved identifier 'kGAIScreenName'\nUse of unresolved identifier 'GAIDictionaryBuilder'\n<\/code><\/pre>\n\n<p>I imported GAI.h in my BridingHeader and added frameworks to the build file, no errors on this side.<\/p>\n\n<p>Thanks!<\/p>\n"
+    },
+    {
+      "tags": [
+        "ios",
+        "xcode",
+        "view",
+        "freeform"
+      ],
+      "owner": {
+        "reputation": 46,
+        "user_id": 2014780,
+        "user_type": "registered",
+        "accept_rate": 58,
+        "profile_image": "https:\/\/www.gravatar.com\/avatar\/31e7d05a4685f989f32ca6e9ffc36131?s=128&d=identicon&r=PG",
+        "display_name": "user2014780",
+        "link": "http:\/\/stackoverflow.com\/users\/2014780\/user2014780"
+      },
+      "is_answered": false,
+      "view_count": 14,
+      "answer_count": 2,
+      "score": 0,
+      "last_activity_date": 1415358188,
+      "creation_date": 1415357301,
+      "question_id": 26799512,
+      "link": "http:\/\/stackoverflow.com\/questions\/26799512\/universal-width-when-using-freeform",
+      "title": "Universal width when using freeform",
+      "body": "<p>I used the freeform option on my scrollview and parent view so that I can use the storyboard builder to add labels and textfields. Now I am having trouble getting everything entered horizontally when simulating. It's different on every device. <\/p>\n\n<p>I enabled the auto-layout option, and size classes. Also I have added the constraint for horizontal alignment on each object inside the scroll controller. The last screenshot is from the simulator. As you can see; the width of the freeform view is too large. I can scroll horizontally and vertically. The first one (horizontal scrolling) should not exist.<\/p>\n\n<p><img src=\"http:\/\/i.stack.imgur.com\/kWziK.png\" alt=\"The view\"><\/p>\n\n<p><img src=\"http:\/\/i.stack.imgur.com\/hAw36.png\" alt=\"enter image description here\"><\/p>\n\n<p><img src=\"http:\/\/i.stack.imgur.com\/FJleQ.png\" alt=\"enter image description here\"><\/p>\n"
+    },
+    {
+      "tags": [
+        "javascript",
+        "html",
+        "ios",
+        "xcode",
+        "uiwebview"
+      ],
+      "owner": {
+        "reputation": 546,
+        "user_id": 229401,
+        "user_type": "registered",
+        "accept_rate": 69,
+        "profile_image": "https:\/\/lh3.googleusercontent.com\/-yCZIvgPAjAc\/AAAAAAAAAAI\/AAAAAAAACZ0\/20y9gHKqjWk\/photo.jpg?sz=128",
+        "display_name": "chaitanya kiran Thandu",
+        "link": "http:\/\/stackoverflow.com\/users\/229401\/chaitanya-kiran-thandu"
+      },
+      "is_answered": true,
+      "view_count": 18,
+      "accepted_answer_id": 26799555,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1415360214,
+      "creation_date": 1415357273,
+      "last_edit_date": 1415357323,
+      "question_id": 26799493,
+      "link": "http:\/\/stackoverflow.com\/questions\/26799493\/how-to-load-large-html-string-in-webview-with-loadhtmlstring-method",
+      "title": "How to Load large HTML string in WebView with LoadHTMLString method?",
+      "body": "<p>I have to load an html string onto the UIWebView with 'LoadHTMLString' method of UIWebView.<\/p>\n\n<p>Please find the below code.<\/p>\n\n<pre><code>[wv loadHTMLString:[NSString stringWithFormat:@\"&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;meta name=\\\"viewport\\\" content=\\\"initial-scale=1.0, user-scalable=no\\\"&gt;&lt;meta charset=\\\"utf-8\\\"&gt;&lt;title&gt;Traffic layer&lt;\/title&gt;&lt;style&gt;html, body, #map-canvas {height: 100%%;margin: 0px;padding: 0px}&lt;\/style&gt;&lt;script src=\\\"https:\/\/maps.googleapis.com\/maps\/api\/js?v=3.exp\\\"&gt;&lt;\/script&gt;&lt;script&gt;function initialize() {var myLatlng = new google.maps.LatLng(34.04924594193164, -118.24104309082031);var mapOptions = {zoom: 13,center: myLatlng}var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptiotrafficLayer.setMap(map);}google.maps.event.addDomListener(window, 'load', initialize);&lt;\/script&gt;&lt;\/head&gt;&lt;body&gt;&lt;div id=\\\"map-canvas\\\"&gt;&lt;\/div&gt;&lt;\/body&gt;&lt;\/html&gt;\"] baseURL:nil]\n<\/code><\/pre>\n\n<p>When I load this my webview is empty, it is not showing anything.<\/p>\n\n<p>When I put this code into file with the extension 'html' and load on to the webview it is working fine.<\/p>\n\n<p>Can any once help me in loading this on to the WebView or Could any one let me know what is going wrong in this code.<\/p>\n\n<p>Thanks in Advance.<\/p>\n"
     }
   ],
   "has_more": true,
   "quota_max": 300,
-  "quota_remaining": 259
+  "quota_remaining": 295
 }

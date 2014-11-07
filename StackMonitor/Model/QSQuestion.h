@@ -23,6 +23,7 @@
 
 @property (nonatomic, strong) NSNumber		*accepted_answer_id;
 @property (nonatomic, strong) NSNumber		*answer_count;
+@property (nonatomic, strong) NSString		*body;
 @property (nonatomic, strong) NSNumber		*bounty_amount;
 @property (nonatomic, strong) NSDate		*bounty_closes_date;
 @property (nonatomic, strong) NSDate		*closed_date;

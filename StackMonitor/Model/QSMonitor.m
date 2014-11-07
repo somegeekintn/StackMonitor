@@ -10,6 +10,9 @@
 #import "QSObjGraphMgr.h"
 #import "QSQuestion.h"
 
+const NSString	*cStackEchangeSite = @"stackoverflow";
+const NSString	*cStackEchangeTag = @"xcode;ios;iphone;objective-c";
+
 @implementation QSMonitor
 
 + (QSMonitor *) sharedMonitor
@@ -27,9 +30,14 @@
 - (NSURL *) monitorURL
 {
 	NSURL	*monitorURL;
-//		URLString = [NSString stringWithFormat: @"http://api.stackexchange.com/2.2/search?order=desc&sort=creation&tagged=%@&site=%@", cStackEchangeTag, cStackEchangeSite];
-//		sStackExchangeURL = [NSURL URLWithString: URLString];
-	 monitorURL = [[NSBundle mainBundle] URLForResource: @"sample" withExtension: @"json"];
+	
+#if 1
+	monitorURL = [[NSBundle mainBundle] URLForResource: @"sample" withExtension: @"json"];
+#else
+	NSString	*URLString = [NSString stringWithFormat: @"http://api.stackexchange.com/2.2/search?order=desc&sort=creation&tagged=%@&site=%@&filter=!9YdnSJBlX", cStackEchangeTag, cStackEchangeSite];
+	
+	monitorURL = [NSURL URLWithString: URLString];
+#endif
 	
 	 return monitorURL;
 }
@@ -49,6 +57,8 @@
 		NSData				*rawResponse = [NSData dataWithContentsOfURL: [self monitorURL]];
 		
 		if (rawResponse != nil) {
+//NSString	*rawString = [[NSString alloc] initWithData: rawResponse encoding: NSUTF8StringEncoding];
+//NSLog(@"%@", rawString);
 			NSError				*jsonError = nil;
 			NSDictionary		*jsonResponse = [NSJSONSerialization JSONObjectWithData: rawResponse options: 0 error: &jsonError];
 			
@@ -60,6 +70,8 @@
 					[itemList enumerateObjectsUsingBlock: ^(id inObject, NSUInteger inIndex, BOOL *outStop) {
 						[QSQuestion updateQuestionWithRawInfo: inObject];
 					}];
+
+					[[QSObjGraphMgr sharedManager] save];
 				}];
 			}
 			else {
