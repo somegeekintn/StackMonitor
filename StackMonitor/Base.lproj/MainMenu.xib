@@ -674,7 +674,7 @@
                 </menuItem>
             </items>
         </menu>
-        <window title="StackMonitor" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
+        <window title="StackMonitor" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" frameAutosaveName="main_window" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="650" height="358"/>
@@ -715,7 +715,7 @@
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <customView translatesAutoresizingMaskIntoConstraints="NO" id="cp8-Lm-tEF" userLabel="Vote Bkg" customClass="QSTintedView">
-                                                            <rect key="frame" x="6" y="24" width="68" height="82"/>
+                                                            <rect key="frame" x="4" y="26" width="68" height="82"/>
                                                             <subviews>
                                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PoE-B8-q2w" userLabel="Score">
                                                                     <rect key="frame" x="2" y="51" width="64" height="27"/>
@@ -781,7 +781,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </customView>
                                                         <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E3D-UX-EFd" userLabel="View count">
-                                                            <rect key="frame" x="4" y="6" width="72" height="14"/>
+                                                            <rect key="frame" x="2" y="8" width="72" height="14"/>
                                                             <textFieldCell key="cell" truncatesLastVisibleLine="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" alignment="center" title="# views" id="fW9-Wt-Oxl">
                                                                 <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="# views" negativeFormat="# views" usesGroupingSeparator="NO" groupingSize="0" minimumIntegerDigits="0" maximumIntegerDigits="309" id="sFx-Sw-a9c"/>
                                                                 <font key="font" size="11" name="Helvetica"/>
@@ -793,7 +793,7 @@
                                                             </connections>
                                                         </textField>
                                                         <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="MSv-Oo-56S" userLabel="Question Title">
-                                                            <rect key="frame" x="78" y="88" width="565" height="18"/>
+                                                            <rect key="frame" x="76" y="90" width="569" height="18"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" relation="lessThanOrEqual" constant="36" id="kCW-sT-e6u"/>
                                                             </constraints>
@@ -807,7 +807,7 @@
                                                             </connections>
                                                         </textField>
                                                         <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="E7a-FQ-n49" userLabel="Body">
-                                                            <rect key="frame" x="78" y="54" width="357" height="28"/>
+                                                            <rect key="frame" x="76" y="56" width="569" height="28"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" relation="lessThanOrEqual" constant="28" id="8XB-aw-RC2"/>
                                                             </constraints>
@@ -822,79 +822,8 @@ Body</string>
                                                                 <binding destination="j3z-DR-8an" name="value" keyPath="objectValue.body" id="Don-T4-70t"/>
                                                             </connections>
                                                         </textField>
-                                                        <customView horizontalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="Qk7-4i-FEM" userLabel="Owner Container">
-                                                            <rect key="frame" x="441" y="4" width="200" height="58"/>
-                                                            <subviews>
-                                                                <textField verticalHuggingPriority="750" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j42-hg-tsL" userLabel="Created">
-                                                                    <rect key="frame" x="-2" y="36" width="204" height="14"/>
-                                                                    <constraints>
-                                                                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="14" id="L53-75-nE2"/>
-                                                                    </constraints>
-                                                                    <textFieldCell key="cell" truncatesLastVisibleLine="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" alignment="right" title="Asked when" id="fi1-5Q-QNf">
-                                                                        <dateFormatter key="formatter" dateStyle="short" timeStyle="short" doesRelativeDateFormatting="YES" id="vTX-9K-qJj"/>
-                                                                        <font key="font" size="11" name="Helvetica"/>
-                                                                        <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
-                                                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                                                    </textFieldCell>
-                                                                    <connections>
-                                                                        <binding destination="j3z-DR-8an" name="value" keyPath="objectValue.creation_date" id="unR-aH-j9V"/>
-                                                                    </connections>
-                                                                </textField>
-                                                                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="1000" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aLZ-5P-5Wn" userLabel="Owner name">
-                                                                    <rect key="frame" x="-2" y="18" width="166" height="14"/>
-                                                                    <constraints>
-                                                                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="14" id="Vjd-Re-c2u"/>
-                                                                    </constraints>
-                                                                    <textFieldCell key="cell" truncatesLastVisibleLine="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" alignment="right" title="Owner" id="m4B-8W-ez1">
-                                                                        <font key="font" size="11" name="Helvetica"/>
-                                                                        <color key="textColor" red="0.0" green="0.46666666670000001" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
-                                                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                                                    </textFieldCell>
-                                                                    <connections>
-                                                                        <binding destination="j3z-DR-8an" name="value" keyPath="objectValue.owner.display_name" id="Ws5-F2-wZ3"/>
-                                                                    </connections>
-                                                                </textField>
-                                                                <textField verticalHuggingPriority="750" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J17-HU-hmq" userLabel="Reputation">
-                                                                    <rect key="frame" x="-2" y="4" width="166" height="14"/>
-                                                                    <textFieldCell key="cell" truncatesLastVisibleLine="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" alignment="right" title="Reputation" id="Fpu-wO-Qvs">
-                                                                        <font key="font" size="11" name="Helvetica"/>
-                                                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                                                    </textFieldCell>
-                                                                    <connections>
-                                                                        <binding destination="j3z-DR-8an" name="value" keyPath="objectValue.owner.reputation" id="f3p-YR-uXh"/>
-                                                                    </connections>
-                                                                </textField>
-                                                                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="q5K-rK-l9H">
-                                                                    <rect key="frame" x="168" y="0.0" width="32" height="32"/>
-                                                                    <constraints>
-                                                                        <constraint firstAttribute="height" constant="32" id="jiK-d9-sUo"/>
-                                                                        <constraint firstAttribute="width" constant="32" id="wJW-3L-Kjo"/>
-                                                                    </constraints>
-                                                                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="ogQ-cv-2xC"/>
-                                                                    <connections>
-                                                                        <binding destination="j3z-DR-8an" name="value" keyPath="objectValue.owner.thumbnail" id="T7s-U6-uo4"/>
-                                                                    </connections>
-                                                                </imageView>
-                                                            </subviews>
-                                                            <constraints>
-                                                                <constraint firstItem="q5K-rK-l9H" firstAttribute="top" secondItem="aLZ-5P-5Wn" secondAttribute="top" id="9Bs-H5-MJd"/>
-                                                                <constraint firstItem="q5K-rK-l9H" firstAttribute="leading" secondItem="aLZ-5P-5Wn" secondAttribute="trailing" constant="6" id="A6i-Un-1A7"/>
-                                                                <constraint firstItem="j42-hg-tsL" firstAttribute="leading" secondItem="Qk7-4i-FEM" secondAttribute="leading" priority="750" id="B0h-dj-rBd"/>
-                                                                <constraint firstAttribute="width" constant="200" placeholder="YES" id="HD1-UK-jao"/>
-                                                                <constraint firstItem="q5K-rK-l9H" firstAttribute="top" secondItem="j42-hg-tsL" secondAttribute="bottom" constant="4" id="HcI-iD-Ybr"/>
-                                                                <constraint firstAttribute="trailing" secondItem="q5K-rK-l9H" secondAttribute="trailing" id="IGy-k3-Ysn"/>
-                                                                <constraint firstItem="J17-HU-hmq" firstAttribute="leading" secondItem="Qk7-4i-FEM" secondAttribute="leading" priority="750" id="P0G-Tz-Gck"/>
-                                                                <constraint firstAttribute="bottom" secondItem="q5K-rK-l9H" secondAttribute="bottom" id="PuI-Bz-4Es"/>
-                                                                <constraint firstAttribute="height" constant="58" id="RcM-gK-cnO"/>
-                                                                <constraint firstItem="J17-HU-hmq" firstAttribute="top" secondItem="aLZ-5P-5Wn" secondAttribute="bottom" id="SX9-M3-p7f"/>
-                                                                <constraint firstAttribute="trailing" secondItem="j42-hg-tsL" secondAttribute="trailing" id="Yj1-Vw-mTa"/>
-                                                                <constraint firstItem="q5K-rK-l9H" firstAttribute="leading" secondItem="J17-HU-hmq" secondAttribute="trailing" constant="6" id="nbL-yt-IsB"/>
-                                                                <constraint firstItem="aLZ-5P-5Wn" firstAttribute="leading" secondItem="Qk7-4i-FEM" secondAttribute="leading" priority="750" id="zYw-GV-V22"/>
-                                                            </constraints>
-                                                        </customView>
                                                         <tokenField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5W7-0w-rhK" userLabel="Tags">
-                                                            <rect key="frame" x="78" y="6" width="357" height="15"/>
+                                                            <rect key="frame" x="76" y="6" width="471" height="15"/>
                                                             <tokenFieldCell key="cell" lineBreakMode="truncatingTail" allowsUndo="NO" focusRingType="none" alignment="left" title="these,are,tags" allowsEditingTextAttributes="YES" id="qyq-mR-RZj">
                                                                 <font key="font" size="12" name="Helvetica"/>
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -904,23 +833,75 @@ Body</string>
                                                                 <binding destination="j3z-DR-8an" name="value" keyPath="objectValue.tags" id="QKs-0u-kS8"/>
                                                             </connections>
                                                         </tokenField>
+                                                        <textField verticalHuggingPriority="750" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HcK-uB-qfL" userLabel="Created">
+                                                            <rect key="frame" x="581" y="38" width="64" height="14"/>
+                                                            <textFieldCell key="cell" lineBreakMode="truncatingTail" truncatesLastVisibleLine="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" alignment="right" title="Asked when" id="wYW-nd-ZNE">
+                                                                <dateFormatter key="formatter" dateStyle="short" timeStyle="short" doesRelativeDateFormatting="YES" id="ah2-bS-3lm"/>
+                                                                <font key="font" size="11" name="Helvetica"/>
+                                                                <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                            </textFieldCell>
+                                                            <connections>
+                                                                <binding destination="j3z-DR-8an" name="value" keyPath="objectValue.creation_date" id="guK-zq-ZjW"/>
+                                                            </connections>
+                                                        </textField>
+                                                        <textField verticalHuggingPriority="750" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9ug-Fj-Mj1" userLabel="Owner name">
+                                                            <rect key="frame" x="570" y="22" width="37" height="14"/>
+                                                            <textFieldCell key="cell" lineBreakMode="truncatingTail" truncatesLastVisibleLine="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" alignment="right" title="Owner" id="JEX-SD-4dr">
+                                                                <font key="font" size="11" name="Helvetica"/>
+                                                                <color key="textColor" red="0.0" green="0.46666666670000001" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                            </textFieldCell>
+                                                            <connections>
+                                                                <binding destination="j3z-DR-8an" name="value" keyPath="objectValue.owner.display_name" id="h83-Tx-RML"/>
+                                                            </connections>
+                                                        </textField>
+                                                        <textField horizontalHuggingPriority="750" verticalHuggingPriority="750" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yaB-Sg-XVO" userLabel="Reputation">
+                                                            <rect key="frame" x="549" y="8" width="58" height="14"/>
+                                                            <textFieldCell key="cell" lineBreakMode="truncatingTail" truncatesLastVisibleLine="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" alignment="right" title="Reputation" id="pi2-yN-hVT">
+                                                                <font key="font" size="11" name="Helvetica"/>
+                                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                            </textFieldCell>
+                                                            <connections>
+                                                                <binding destination="j3z-DR-8an" name="value" keyPath="objectValue.owner.reputation" id="G58-aM-iL3"/>
+                                                            </connections>
+                                                        </textField>
+                                                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Uhu-Zo-xJH">
+                                                            <rect key="frame" x="611" y="4" width="32" height="32"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="32" id="4RV-3F-tNU"/>
+                                                                <constraint firstAttribute="height" constant="32" id="6lM-Wu-rqy"/>
+                                                            </constraints>
+                                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="uFU-ny-shD"/>
+                                                            <connections>
+                                                                <binding destination="j3z-DR-8an" name="value" keyPath="objectValue.owner.thumbnail" id="kng-zi-ffs"/>
+                                                            </connections>
+                                                        </imageView>
                                                     </subviews>
                                                     <constraints>
                                                         <constraint firstItem="E3D-UX-EFd" firstAttribute="leading" secondItem="cp8-Lm-tEF" secondAttribute="leading" id="0cK-mJ-6GK"/>
+                                                        <constraint firstItem="Uhu-Zo-xJH" firstAttribute="leading" secondItem="yaB-Sg-XVO" secondAttribute="trailing" constant="6" id="6fJ-Ua-fZO"/>
+                                                        <constraint firstAttribute="trailing" secondItem="HcK-uB-qfL" secondAttribute="trailing" constant="4" id="AB2-xT-nwT"/>
                                                         <constraint firstItem="5W7-0w-rhK" firstAttribute="leading" secondItem="cp8-Lm-tEF" secondAttribute="trailing" constant="6" id="AO5-Ih-zEP"/>
                                                         <constraint firstItem="E7a-FQ-n49" firstAttribute="top" secondItem="MSv-Oo-56S" secondAttribute="bottom" constant="6" id="CUV-pB-yV2"/>
-                                                        <constraint firstAttribute="trailing" secondItem="Qk7-4i-FEM" secondAttribute="trailing" constant="6" id="F13-Y1-5tq"/>
-                                                        <constraint firstItem="cp8-Lm-tEF" firstAttribute="leading" secondItem="j3z-DR-8an" secondAttribute="leading" constant="6" id="LBi-DR-QOe"/>
+                                                        <constraint firstItem="Uhu-Zo-xJH" firstAttribute="leading" secondItem="9ug-Fj-Mj1" secondAttribute="trailing" constant="6" id="FUg-kG-rzZ"/>
+                                                        <constraint firstItem="cp8-Lm-tEF" firstAttribute="leading" secondItem="j3z-DR-8an" secondAttribute="leading" constant="4" id="LBi-DR-QOe"/>
                                                         <constraint firstItem="E7a-FQ-n49" firstAttribute="leading" secondItem="cp8-Lm-tEF" secondAttribute="trailing" constant="6" id="N6I-Jg-79b"/>
-                                                        <constraint firstItem="Qk7-4i-FEM" firstAttribute="leading" secondItem="E7a-FQ-n49" secondAttribute="trailing" constant="8" id="R2T-zi-sfi"/>
-                                                        <constraint firstAttribute="bottom" secondItem="Qk7-4i-FEM" secondAttribute="bottom" constant="4" id="Uqc-7J-bpK"/>
-                                                        <constraint firstItem="Qk7-4i-FEM" firstAttribute="leading" secondItem="5W7-0w-rhK" secondAttribute="trailing" constant="8" id="X6X-V7-lQU"/>
+                                                        <constraint firstItem="Uhu-Zo-xJH" firstAttribute="top" secondItem="HcK-uB-qfL" secondAttribute="bottom" constant="2" id="T0E-2M-C5V"/>
+                                                        <constraint firstItem="yaB-Sg-XVO" firstAttribute="leading" secondItem="5W7-0w-rhK" secondAttribute="trailing" constant="6" id="d23-7y-IyO"/>
+                                                        <constraint firstItem="yaB-Sg-XVO" firstAttribute="top" secondItem="9ug-Fj-Mj1" secondAttribute="bottom" id="dbH-LX-Jl9"/>
                                                         <constraint firstItem="MSv-Oo-56S" firstAttribute="leading" secondItem="cp8-Lm-tEF" secondAttribute="trailing" constant="6" id="gCs-c7-u5U"/>
-                                                        <constraint firstItem="cp8-Lm-tEF" firstAttribute="top" secondItem="j3z-DR-8an" secondAttribute="top" constant="6" id="gYL-fM-nE5"/>
+                                                        <constraint firstItem="cp8-Lm-tEF" firstAttribute="top" secondItem="j3z-DR-8an" secondAttribute="top" constant="4" id="gYL-fM-nE5"/>
                                                         <constraint firstItem="E3D-UX-EFd" firstAttribute="trailing" secondItem="cp8-Lm-tEF" secondAttribute="trailing" id="j8a-vj-clh"/>
-                                                        <constraint firstItem="MSv-Oo-56S" firstAttribute="top" secondItem="j3z-DR-8an" secondAttribute="top" constant="6" id="mAq-Wx-0fv"/>
-                                                        <constraint firstAttribute="trailing" secondItem="MSv-Oo-56S" secondAttribute="trailing" constant="6" id="vSM-XJ-uQz"/>
+                                                        <constraint firstAttribute="bottom" secondItem="Uhu-Zo-xJH" secondAttribute="bottom" constant="4" id="lj5-uD-pDK"/>
+                                                        <constraint firstItem="HcK-uB-qfL" firstAttribute="top" relation="greaterThanOrEqual" secondItem="E7a-FQ-n49" secondAttribute="bottom" id="lny-hP-oKX"/>
+                                                        <constraint firstItem="MSv-Oo-56S" firstAttribute="top" secondItem="j3z-DR-8an" secondAttribute="top" constant="4" id="mAq-Wx-0fv"/>
+                                                        <constraint firstItem="Uhu-Zo-xJH" firstAttribute="top" secondItem="9ug-Fj-Mj1" secondAttribute="top" id="nF6-VW-ie9"/>
+                                                        <constraint firstAttribute="trailing" secondItem="MSv-Oo-56S" secondAttribute="trailing" constant="4" id="vSM-XJ-uQz"/>
                                                         <constraint firstItem="E3D-UX-EFd" firstAttribute="top" secondItem="cp8-Lm-tEF" secondAttribute="bottom" constant="4" id="vZf-jV-Xn0"/>
+                                                        <constraint firstAttribute="trailing" secondItem="E7a-FQ-n49" secondAttribute="trailing" constant="4" id="wKl-Fc-xwZ"/>
+                                                        <constraint firstAttribute="trailing" secondItem="Uhu-Zo-xJH" secondAttribute="trailing" constant="4" id="whF-Fe-r39"/>
                                                         <constraint firstAttribute="bottom" secondItem="5W7-0w-rhK" secondAttribute="bottom" constant="6" id="wl7-e2-7b8"/>
                                                     </constraints>
                                                     <connections>
