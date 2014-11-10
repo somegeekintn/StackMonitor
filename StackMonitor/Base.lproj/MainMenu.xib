@@ -822,8 +822,8 @@ Body</string>
                                                                 <binding destination="j3z-DR-8an" name="value" keyPath="objectValue.body" id="Don-T4-70t"/>
                                                             </connections>
                                                         </textField>
-                                                        <tokenField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5W7-0w-rhK" userLabel="Tags">
-                                                            <rect key="frame" x="76" y="6" width="471" height="15"/>
+                                                        <tokenField focusRingType="none" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="5W7-0w-rhK" userLabel="Tags">
+                                                            <rect key="frame" x="76" y="6" width="189" height="15"/>
                                                             <tokenFieldCell key="cell" lineBreakMode="truncatingTail" allowsUndo="NO" focusRingType="none" alignment="left" title="these,are,tags" allowsEditingTextAttributes="YES" id="qyq-mR-RZj">
                                                                 <font key="font" size="12" name="Helvetica"/>
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -885,11 +885,12 @@ Body</string>
                                                         <constraint firstAttribute="trailing" secondItem="HcK-uB-qfL" secondAttribute="trailing" constant="4" id="AB2-xT-nwT"/>
                                                         <constraint firstItem="5W7-0w-rhK" firstAttribute="leading" secondItem="cp8-Lm-tEF" secondAttribute="trailing" constant="6" id="AO5-Ih-zEP"/>
                                                         <constraint firstItem="E7a-FQ-n49" firstAttribute="top" secondItem="MSv-Oo-56S" secondAttribute="bottom" constant="6" id="CUV-pB-yV2"/>
+                                                        <constraint firstItem="9ug-Fj-Mj1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="5W7-0w-rhK" secondAttribute="trailing" constant="6" id="CiG-zr-FB4"/>
                                                         <constraint firstItem="Uhu-Zo-xJH" firstAttribute="leading" secondItem="9ug-Fj-Mj1" secondAttribute="trailing" constant="6" id="FUg-kG-rzZ"/>
                                                         <constraint firstItem="cp8-Lm-tEF" firstAttribute="leading" secondItem="j3z-DR-8an" secondAttribute="leading" constant="4" id="LBi-DR-QOe"/>
                                                         <constraint firstItem="E7a-FQ-n49" firstAttribute="leading" secondItem="cp8-Lm-tEF" secondAttribute="trailing" constant="6" id="N6I-Jg-79b"/>
                                                         <constraint firstItem="Uhu-Zo-xJH" firstAttribute="top" secondItem="HcK-uB-qfL" secondAttribute="bottom" constant="2" id="T0E-2M-C5V"/>
-                                                        <constraint firstItem="yaB-Sg-XVO" firstAttribute="leading" secondItem="5W7-0w-rhK" secondAttribute="trailing" constant="6" id="d23-7y-IyO"/>
+                                                        <constraint firstItem="yaB-Sg-XVO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="5W7-0w-rhK" secondAttribute="trailing" constant="6" id="d23-7y-IyO"/>
                                                         <constraint firstItem="yaB-Sg-XVO" firstAttribute="top" secondItem="9ug-Fj-Mj1" secondAttribute="bottom" id="dbH-LX-Jl9"/>
                                                         <constraint firstItem="MSv-Oo-56S" firstAttribute="leading" secondItem="cp8-Lm-tEF" secondAttribute="trailing" constant="6" id="gCs-c7-u5U"/>
                                                         <constraint firstItem="cp8-Lm-tEF" firstAttribute="top" secondItem="j3z-DR-8an" secondAttribute="top" constant="4" id="gYL-fM-nE5"/>
