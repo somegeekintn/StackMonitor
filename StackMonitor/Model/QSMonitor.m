@@ -10,8 +10,19 @@
 #import "QSObjGraphMgr.h"
 #import "QSQuestion.h"
 
-const NSString	*cStackEchangeSite = @"stackoverflow";
-const NSString	*cStackEchangeTag = @"xcode;ios;iphone;objective-c";
+
+#define kRefreshInterval	(3.0 * 60.0)
+
+NSString * const	cStackEchangeSite = @"stackoverflow";
+NSString * const	QSNotificationMonitorStateChange = @"QSNotificationMonitorStateChange";
+
+
+@interface QSMonitor ()
+
+@property (nonatomic, assign) BOOL		updating;
+
+@end
+
 
 @implementation QSMonitor
 
@@ -27,14 +38,30 @@ const NSString	*cStackEchangeTag = @"xcode;ios;iphone;objective-c";
 	return sSharedMonitor;
 }
 
+- (id) init
+{
+	if ((self = [super init]) != nil) {
+		[[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(handleDefaultsChange:) name: NSUserDefaultsDidChangeNotification object: nil];
+		self.tags = [[NSUserDefaults standardUserDefaults] arrayForKey: @"monitor_tags"];
+	}
+	
+	return self;
+}
+
 - (NSURL *) monitorURL
 {
-	NSURL	*monitorURL;
-	
-#if 1
+	NSURL		*monitorURL;
+
+#if 0
+	// for testing
 	monitorURL = [[NSBundle mainBundle] URLForResource: @"sample" withExtension: @"json"];
 #else
-	NSString	*URLString = [NSString stringWithFormat: @"http://api.stackexchange.com/2.2/search?order=desc&sort=creation&tagged=%@&site=%@&filter=!9YdnSJBlX", cStackEchangeTag, cStackEchangeSite];
+	NSString	*monitorTags = [self.tags componentsJoinedByString: @";"];
+	NSString	*URLString = [NSString stringWithFormat: @"http://api.stackexchange.com/2.2/search?order=desc&sort=creation&site=%@&filter=!9YdnSJBlX", cStackEchangeSite];
+
+	if ([monitorTags length]) {
+		URLString = [URLString stringByAppendingString: [NSString stringWithFormat: @"&tagged=%@", monitorTags]];
+	}
 	
 	monitorURL = [NSURL URLWithString: URLString];
 #endif
@@ -54,11 +81,11 @@ const NSString	*cStackEchangeTag = @"xcode;ios;iphone;objective-c";
 - (void) continueMonitoring
 {
 	if (self.monitoring) {
-		NSData				*rawResponse = [NSData dataWithContentsOfURL: [self monitorURL]];
+		NSData				*rawResponse;
 		
+		self.updating = YES;
+		rawResponse = [NSData dataWithContentsOfURL: [self monitorURL]];
 		if (rawResponse != nil) {
-//NSString	*rawString = [[NSString alloc] initWithData: rawResponse encoding: NSUTF8StringEncoding];
-//NSLog(@"%@", rawString);
 			NSError				*jsonError = nil;
 			NSDictionary		*jsonResponse = [NSJSONSerialization JSONObjectWithData: rawResponse options: 0 error: &jsonError];
 			
@@ -72,16 +99,21 @@ const NSString	*cStackEchangeTag = @"xcode;ios;iphone;objective-c";
 					}];
 
 					[[QSObjGraphMgr sharedManager] save];
+					self.updating = NO;
 				}];
 			}
 			else {
 				if (jsonError != nil) {
 					NSLog(@"error creating json response: %@", [jsonError localizedDescription]);
 				}
+				self.updating = NO;
 			}
 		}
+		else {
+			self.updating = NO;
+		}
 		
-		dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3.0 * 60.0 * NSEC_PER_SEC)), dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+		dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(kRefreshInterval * NSEC_PER_SEC)), dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
 			[self continueMonitoring];
 		});
 	}
@@ -90,6 +122,23 @@ const NSString	*cStackEchangeTag = @"xcode;ios;iphone;objective-c";
 - (void) endMonitoring
 {
 	self.monitoring = NO;
+}
+
+- (void) setUpdating: (BOOL) inUpdating
+{
+	if (_updating != inUpdating) {
+		_updating = inUpdating;
+		
+		dispatch_async(dispatch_get_main_queue(), ^{
+//		dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)((_updating ? 0.0 : 5.0) * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+			[[NSNotificationCenter defaultCenter] postNotificationName: QSNotificationMonitorStateChange object: self userInfo: @{ @"state" : @(_updating) }];
+		});
+	}
+}
+
+- (void) handleDefaultsChange: (NSNotification *) inNotification
+{
+	self.tags = [[NSUserDefaults standardUserDefaults] arrayForKey: @"monitor_tags"];
 }
 
 @end

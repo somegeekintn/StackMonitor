@@ -8,6 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 
+#define kTintedViewTag	1000
+
 IB_DESIGNABLE
 
 @interface QSTintedView : NSView

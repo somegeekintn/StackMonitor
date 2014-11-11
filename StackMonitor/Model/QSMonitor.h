@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+extern NSString * const		QSNotificationMonitorStateChange;
+
 @interface QSMonitor : NSObject
 
 + (QSMonitor *)			sharedMonitor;
@@ -15,6 +17,8 @@
 - (void)				beginMonitoring;
 - (void)				endMonitoring;
 
-@property (nonatomic, assign) BOOL		monitoring;
+@property (nonatomic, strong) NSArray		*tags;
+@property (nonatomic, assign) BOOL			monitoring;
+@property (nonatomic, readonly) BOOL		updating;
 
 @end

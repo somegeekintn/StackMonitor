@@ -33,6 +33,8 @@
 @dynamic tags;
 @dynamic title;
 @dynamic view_count;
+@dynamic wasHidden;
+@dynamic wasViewed;
 @dynamic owner;
 
 + (NSArray *) skippedRawAttributeNames
@@ -40,7 +42,7 @@
 	static NSArray	*sSkippedNames = nil;
 	
 	if (sSkippedNames == nil) {
-		sSkippedNames = @[ @"question_id", @"owner", @"tags", @"title", @"body" ];
+		sSkippedNames = @[ @"question_id", @"owner", @"tags", @"title", @"body", @"wasHidden", @"wasViewed" ];
 	}
 	
 	return sSkippedNames;

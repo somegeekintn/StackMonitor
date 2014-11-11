@@ -21,6 +21,8 @@
         <attribute name="tags" attributeType="String" syncable="YES"/>
         <attribute name="title" attributeType="String" syncable="YES"/>
         <attribute name="view_count" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="wasHidden" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="wasViewed" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
         <relationship name="owner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="questions" inverseEntity="User" syncable="YES"/>
     </entity>
     <entity name="User" representedClassName="QSUser" syncable="YES">
@@ -35,7 +37,7 @@
         <relationship name="questions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Question" inverseName="owner" inverseEntity="Question" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Question" positionX="-63" positionY="-18" width="128" height="360"/>
+        <element name="Question" positionX="-63" positionY="-18" width="128" height="390"/>
         <element name="User" positionX="-54" positionY="135" width="128" height="180"/>
     </elements>
 </model>

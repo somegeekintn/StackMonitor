@@ -18,4 +18,18 @@
 	NSRectFill(self.bounds);
 }
 
+- (NSInteger) tag
+{
+	return kTintedViewTag;
+}
+
+- (void) setFillColor: (NSColor *) inFillColor
+{
+	if (![_fillColor isEqual: inFillColor]) {
+		_fillColor = inFillColor;
+		
+		[self setNeedsDisplay: YES];
+	}
+}
+
 @end

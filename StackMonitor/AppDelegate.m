@@ -31,9 +31,4 @@
 	[[QSObjGraphMgr sharedManager] shutdown];
 }
 
-- (IBAction) saveAction: (id) inSender
-{
-	[[QSObjGraphMgr sharedManager] save];
-}
-
 @end

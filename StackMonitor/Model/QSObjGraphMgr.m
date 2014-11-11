@@ -30,13 +30,14 @@ static QSObjGraphMgr		*sSharedManager = nil;
 	[super awakeFromNib];
 
 	sSharedManager = self;
+	[self cullHiddenQuestions];
 }
 
 - (NSURL *) applicationDocumentsDirectory
 {
     NSURL	*appSupportURL = [[[NSFileManager defaultManager] URLsForDirectory: NSApplicationSupportDirectory inDomains: NSUserDomainMask] lastObject];
 	
-    return [appSupportURL URLByAppendingPathComponent: @"com.quietspark.StackMonitor"];
+    return [appSupportURL URLByAppendingPathComponent: @"StackMonitor"];
 }
 
 - (void) save
@@ -62,6 +63,27 @@ static QSObjGraphMgr		*sSharedManager = nil;
 				NSLog(@"%s Core Data error: %@", __PRETTY_FUNCTION__, error);
 			}
 		}
+	}
+}
+
+- (void) cullHiddenQuestions
+{
+	NSFetchRequest	*request = [NSFetchRequest fetchRequestWithEntityName: @"Question"];
+	NSDate			*expirationDate = [NSDate dateWithTimeIntervalSinceNow: -24.0 * 60.0 * 60.0];
+	NSArray			*culledQuestions;
+	
+	// Remove questions older than a day that we've marked hidden as it's unlikely they'll be
+	// returned in a response. At least for StackOverflow. May need to adjust that if using
+	// another StackExchange site
+
+	request.predicate = [NSPredicate predicateWithFormat: @"creation_date < %@ && wasHidden == YES", expirationDate];
+	culledQuestions = [self.managedObjectContext executeFetchRequest: request error: nil];
+	if ([culledQuestions count]) {
+		for (NSManagedObject *question in culledQuestions) {
+			[self.managedObjectContext deleteObject: question];
+		}
+		
+		[self save];
 	}
 }
 

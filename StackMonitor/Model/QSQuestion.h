@@ -41,6 +41,8 @@
 @property (nonatomic, strong) NSString		*tags;
 @property (nonatomic, strong) NSString		*title;
 @property (nonatomic, strong) NSNumber		*view_count;
+@property (nonatomic, strong) NSNumber		*wasHidden;
+@property (nonatomic, strong) NSNumber		*wasViewed;
 @property (nonatomic, strong) QSUser		*owner;
 
 @end

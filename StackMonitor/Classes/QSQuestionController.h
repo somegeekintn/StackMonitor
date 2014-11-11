@@ -8,6 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface QSQuestionController : NSArrayController
+@interface QSQuestionController : NSArrayController <NSTableViewDelegate>
 
 @end
